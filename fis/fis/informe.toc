@@ -1,0 +1,34 @@
+\select@language {spanish}
+\contentsline {part}{I\hspace {1em}Proyecto}{5}
+\contentsline {chapter}{\numberline {1}Problema}{7}
+\contentsline {section}{\numberline {1.1}Proceso de Software}{7}
+\contentsline {chapter}{\numberline {2}Metodolog\IeC {\'\i }a}{9}
+\contentsline {section}{\numberline {2.1}Scrum}{9}
+\contentsline {subsection}{\numberline {2.1.1}En que se basa}{9}
+\contentsline {part}{II\hspace {1em}UML}{11}
+\contentsline {chapter}{\numberline {3}An\IeC {\'a}lisis}{13}
+\contentsline {section}{\numberline {3.1}Introducci\IeC {\'o}n}{13}
+\contentsline {section}{\numberline {3.2}Diagrama de Casos de Uso}{14}
+\contentsline {section}{\numberline {3.3}Interacciones}{15}
+\contentsline {subsection}{\numberline {3.3.1}Diagrama de Secuencia}{16}
+\contentsline {subsection}{\numberline {3.3.2}Diagrama de Comunicaci\IeC {\'o}n}{17}
+\contentsline {subsection}{\numberline {3.3.3}Diagrama de Temporizaci\IeC {\'o}n}{18}
+\contentsline {section}{\numberline {3.4}Diagramas de Actividades}{19}
+\contentsline {section}{\numberline {3.5}Diagramas de Actividades}{20}
+\contentsline {section}{\numberline {3.6}Diagramas de Workflow}{21}
+\contentsline {section}{\numberline {3.7}Diagramas de Descripci\IeC {\'o}n de la Interacci\IeC {\'o}n}{22}
+\contentsline {chapter}{\numberline {4}Dise\IeC {\~n}o}{23}
+\contentsline {section}{\numberline {4.1}Introducci\IeC {\'o}n}{23}
+\contentsline {section}{\numberline {4.2}Diagrama de Clases de An\IeC {\'a}lisis}{24}
+\contentsline {section}{\numberline {4.3}Diagrama de Clases}{25}
+\contentsline {section}{\numberline {4.4}Diagrama de Objetos}{26}
+\contentsline {section}{\numberline {4.5}Diagrama de Estructura Compuesta}{27}
+\contentsline {chapter}{\numberline {5}Despliegue}{29}
+\contentsline {section}{\numberline {5.1}Introducci\IeC {\'o}n}{29}
+\contentsline {section}{\numberline {5.2}Diagrama de Sistemas}{30}
+\contentsline {section}{\numberline {5.3}Diagrama de Componentes}{31}
+\contentsline {section}{\numberline {5.4}Diagrama de Artefactos}{32}
+\contentsline {section}{\numberline {5.5}Diagrama de Nodos}{33}
+\contentsline {part}{III\hspace {1em}Conclusiones}{35}
+\contentsline {chapter}{\numberline {6}Conlusiones}{37}
+\contentsline {chapter}{\numberline {7}Trabajos Futuros}{39}
