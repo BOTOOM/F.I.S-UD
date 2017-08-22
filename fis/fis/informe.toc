@@ -2,33 +2,41 @@
 \contentsline {part}{I\hspace {1em}Proyecto}{5}
 \contentsline {chapter}{\numberline {1}Problema}{7}
 \contentsline {section}{\numberline {1.1}Proceso de Software}{7}
-\contentsline {chapter}{\numberline {2}Metodolog\IeC {\'\i }a}{9}
-\contentsline {section}{\numberline {2.1}Scrum}{9}
-\contentsline {subsection}{\numberline {2.1.1}En que se basa}{9}
-\contentsline {part}{II\hspace {1em}UML}{11}
-\contentsline {chapter}{\numberline {3}An\IeC {\'a}lisis}{13}
-\contentsline {section}{\numberline {3.1}Introducci\IeC {\'o}n}{13}
-\contentsline {section}{\numberline {3.2}Diagrama de Casos de Uso}{14}
-\contentsline {section}{\numberline {3.3}Interacciones}{15}
-\contentsline {subsection}{\numberline {3.3.1}Diagrama de Secuencia}{16}
-\contentsline {subsection}{\numberline {3.3.2}Diagrama de Comunicaci\IeC {\'o}n}{17}
-\contentsline {subsection}{\numberline {3.3.3}Diagrama de Temporizaci\IeC {\'o}n}{18}
-\contentsline {section}{\numberline {3.4}Diagramas de Actividades}{19}
-\contentsline {section}{\numberline {3.5}Diagramas de Actividades}{20}
-\contentsline {section}{\numberline {3.6}Diagramas de Workflow}{21}
-\contentsline {section}{\numberline {3.7}Diagramas de Descripci\IeC {\'o}n de la Interacci\IeC {\'o}n}{22}
-\contentsline {chapter}{\numberline {4}Dise\IeC {\~n}o}{23}
-\contentsline {section}{\numberline {4.1}Introducci\IeC {\'o}n}{23}
-\contentsline {section}{\numberline {4.2}Diagrama de Clases de An\IeC {\'a}lisis}{24}
-\contentsline {section}{\numberline {4.3}Diagrama de Clases}{25}
-\contentsline {section}{\numberline {4.4}Diagrama de Objetos}{26}
-\contentsline {section}{\numberline {4.5}Diagrama de Estructura Compuesta}{27}
-\contentsline {chapter}{\numberline {5}Despliegue}{29}
-\contentsline {section}{\numberline {5.1}Introducci\IeC {\'o}n}{29}
-\contentsline {section}{\numberline {5.2}Diagrama de Sistemas}{30}
-\contentsline {section}{\numberline {5.3}Diagrama de Componentes}{31}
-\contentsline {section}{\numberline {5.4}Diagrama de Artefactos}{32}
-\contentsline {section}{\numberline {5.5}Diagrama de Nodos}{33}
-\contentsline {part}{III\hspace {1em}Conclusiones}{35}
-\contentsline {chapter}{\numberline {6}Conlusiones}{37}
-\contentsline {chapter}{\numberline {7}Trabajos Futuros}{39}
+\contentsline {chapter}{\numberline {2}problema}{9}
+\contentsline {chapter}{\numberline {3}Metodolog\IeC {\'\i }a}{11}
+\contentsline {section}{\numberline {3.1}Manifiesto Agil}{11}
+\contentsline {subsection}{\numberline {3.1.1}Valores}{11}
+\contentsline {subsubsection}{Valorar a las personas y las interacciones entre ellas por sobre los procesos y las herramientas}{11}
+\contentsline {subsubsection}{Valorar el software funcionando por sobre la documentaci\IeC {\'o}n detallada}{11}
+\contentsline {subsubsection}{Valorar la colaboraci\IeC {\'o}n con el cliente por sobre la negociaci\IeC {\'o}n de contratos}{12}
+\contentsline {subsubsection}{Valorar la respuesta a los cambios por sobre el seguimiento estricto de los planes }{12}
+\contentsline {subsection}{\numberline {3.1.2}Principios}{12}
+\contentsline {section}{\numberline {3.2}Scrum}{13}
+\contentsline {subsection}{\numberline {3.2.1}En que se basa}{14}
+\contentsline {part}{II\hspace {1em}UML}{15}
+\contentsline {chapter}{\numberline {4}An\IeC {\'a}lisis}{17}
+\contentsline {section}{\numberline {4.1}Introducci\IeC {\'o}n}{17}
+\contentsline {section}{\numberline {4.2}Diagrama de Casos de Uso}{18}
+\contentsline {section}{\numberline {4.3}Interacciones}{19}
+\contentsline {subsection}{\numberline {4.3.1}Diagrama de Secuencia}{20}
+\contentsline {subsection}{\numberline {4.3.2}Diagrama de Comunicaci\IeC {\'o}n}{21}
+\contentsline {subsection}{\numberline {4.3.3}Diagrama de Temporizaci\IeC {\'o}n}{22}
+\contentsline {section}{\numberline {4.4}Diagramas de Actividades}{23}
+\contentsline {section}{\numberline {4.5}Diagramas de Actividades}{24}
+\contentsline {section}{\numberline {4.6}Diagramas de Workflow}{25}
+\contentsline {section}{\numberline {4.7}Diagramas de Descripci\IeC {\'o}n de la Interacci\IeC {\'o}n}{26}
+\contentsline {chapter}{\numberline {5}Dise\IeC {\~n}o}{27}
+\contentsline {section}{\numberline {5.1}Introducci\IeC {\'o}n}{27}
+\contentsline {section}{\numberline {5.2}Diagrama de Clases de An\IeC {\'a}lisis}{28}
+\contentsline {section}{\numberline {5.3}Diagrama de Clases}{29}
+\contentsline {section}{\numberline {5.4}Diagrama de Objetos}{30}
+\contentsline {section}{\numberline {5.5}Diagrama de Estructura Compuesta}{31}
+\contentsline {chapter}{\numberline {6}Despliegue}{33}
+\contentsline {section}{\numberline {6.1}Introducci\IeC {\'o}n}{33}
+\contentsline {section}{\numberline {6.2}Diagrama de Sistemas}{34}
+\contentsline {section}{\numberline {6.3}Diagrama de Componentes}{35}
+\contentsline {section}{\numberline {6.4}Diagrama de Artefactos}{36}
+\contentsline {section}{\numberline {6.5}Diagrama de Nodos}{37}
+\contentsline {part}{III\hspace {1em}Conclusiones}{39}
+\contentsline {chapter}{\numberline {7}Conlusiones}{41}
+\contentsline {chapter}{\numberline {8}Trabajos Futuros}{43}
