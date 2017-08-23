@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350) (preloaded format=pdflatex 2017.8.8)  21 AUG 2017 23:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350) (preloaded format=pdflatex 2017.8.8)  23 AUG 2017 00:35
 entering extended mode
 **./informe.tex
 (informe.tex
@@ -494,7 +494,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 4.
+(Font)              <10.95> on input line 6.
  [3])
 \tf@toc=\write3
 \openout3 = `informe.toc'.
@@ -509,56 +509,49 @@ LaTeX Info: Redefining \% on input line 17.
 
  (proyecto/problema.tex
 Cap\'{\i }tulo 1.
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--30
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--30
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--30
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--30
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--30
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--30
+
+ []
+
 [7
 
 
-]
-LaTeX Info: Redefining \. on input line 6.
-LaTeX Info: Redefining \% on input line 6.
- [8
-
-]
-Cap\'{\i }tulo 2.
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--30
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--30
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--30
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--30
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--30
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--30
-
- []
-
-[9])
+])
 LaTeX Info: Redefining \. on input line 18.
 LaTeX Info: Redefining \% on input line 18.
- [10
+ [8
 
 ]
 \openout2 = `proyecto/metodologia.aux'.
 
  (proyecto/metodologia.tex
-Cap\'{\i }tulo 3.
+Cap\'{\i }tulo 2.
 
 Underfull \hbox (badness 10000) in paragraph at lines 3--9
 
@@ -594,7 +587,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--26
 
  []
 
-[11
+[9
 
 
 
@@ -690,125 +683,125 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--94
 
 LaTeX Info: Redefining \. on input line 94.
 LaTeX Info: Redefining \% on input line 94.
-[12]
-Underfull \hbox (badness 10000) in paragraph at lines 95--97
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 95--101
 
  []
 
-LaTeX Info: Redefining \. on input line 97.
-LaTeX Info: Redefining \% on input line 97.
-[13])
-Underfull \hbox (badness 10000) in paragraph at lines 99--19
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 99--19
+LaTeX Info: Redefining \. on input line 101.
+LaTeX Info: Redefining \% on input line 101.
+[11])
+Underfull \hbox (badness 10000) in paragraph at lines 103--19
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--19
+Underfull \hbox (badness 10000) in paragraph at lines 103--19
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--19
 
  []
 
 LaTeX Info: Redefining \. on input line 19.
 LaTeX Info: Redefining \% on input line 19.
-[14] [15
+[12] [13
 
 
-] [16]
+] [14]
 \openout2 = `uml/analisis.aux'.
 
  (uml/analisis.tex
-Cap\'{\i }tulo 4.
-[17
+Cap\'{\i }tulo 3.
+[15
 
 
 ]
 LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
- [18]
+ [16]
 LaTeX Info: Redefining \. on input line 13.
 LaTeX Info: Redefining \% on input line 13.
- [19]
+ [17]
 LaTeX Info: Redefining \. on input line 17.
 LaTeX Info: Redefining \% on input line 17.
- [20]
+ [18]
 LaTeX Info: Redefining \. on input line 21.
 LaTeX Info: Redefining \% on input line 21.
- [21]
+ [19]
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
- [22]
+ [20]
 LaTeX Info: Redefining \. on input line 29.
 LaTeX Info: Redefining \% on input line 29.
- [23]
+ [21]
 LaTeX Info: Redefining \. on input line 33.
 LaTeX Info: Redefining \% on input line 33.
- [24]
+ [22]
 LaTeX Info: Redefining \. on input line 37.
 LaTeX Info: Redefining \% on input line 37.
- [25]
+ [23]
 LaTeX Info: Redefining \. on input line 41.
 LaTeX Info: Redefining \% on input line 41.
- [26])
+ [24])
 \openout2 = `uml/diseno.aux'.
 
  (uml/diseno.tex
-Cap\'{\i }tulo 5.
-[27
+Cap\'{\i }tulo 4.
+[25
 
 
 
 ]
 LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
- [28]
+ [26]
 LaTeX Info: Redefining \. on input line 13.
 LaTeX Info: Redefining \% on input line 13.
- [29]
+ [27]
 LaTeX Info: Redefining \. on input line 17.
 LaTeX Info: Redefining \% on input line 17.
- [30]
+ [28]
 LaTeX Info: Redefining \. on input line 21.
 LaTeX Info: Redefining \% on input line 21.
- [31])
+ [29])
 \openout2 = `uml/despliegue.aux'.
 
  (uml/despliegue.tex
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
- [32
+ [30
 
 
 
 ]
-Cap\'{\i }tulo 6.
-[33]
+Cap\'{\i }tulo 5.
+[31]
 LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
- [34]
+ [32]
 LaTeX Info: Redefining \. on input line 13.
 LaTeX Info: Redefining \% on input line 13.
- [35]
+ [33]
 LaTeX Info: Redefining \. on input line 17.
 LaTeX Info: Redefining \% on input line 17.
- [36]
+ [34]
 LaTeX Info: Redefining \. on input line 21.
 LaTeX Info: Redefining \% on input line 21.
- [37])
+ [35])
 LaTeX Info: Redefining \. on input line 24.
 LaTeX Info: Redefining \% on input line 24.
- [38
+ [36
 
 
-] [39] [40]
+] [37] [38]
 \openout2 = `conclusiones/conclusiones.aux'.
 
  (conclusiones/conclusiones.tex
-Cap\'{\i }tulo 7.
-) [41
+Cap\'{\i }tulo 6.
+) [39
 
 
 ]
@@ -817,29 +810,29 @@ Cap\'{\i }tulo 7.
  (conclusiones/trabajosfuturos.tex
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
- [42
+ [40
 
 
 
 ]
-Cap\'{\i }tulo 8.
-) [43]
+Cap\'{\i }tulo 7.
+) [41]
 \openout2 = `conclusiones/anexos.aux'.
 
  (conclusiones/anexos.tex
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
+ [42
+
+
+
+]) [43] (informe.bbl
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
  [44
 
 
-
-]) [45] (informe.bbl
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
- [46
-
-
-]) [47] (informe.aux
+]) [45] (informe.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 (proyecto/problema.aux) (proyecto/metodologia.aux) (uml/analisis.aux)
@@ -861,9 +854,9 @@ public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
 sfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmsl10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.
 pfb>
-Output written on informe.pdf (47 pages, 146030 bytes).
+Output written on informe.pdf (45 pages, 145232 bytes).
 PDF statistics:
- 182 PDF objects out of 1000 (max. 8388607)
+ 176 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
