@@ -11,49 +11,80 @@ Actor: Es una agrupacion uniforme de personas, sistemas o maquinas que interactu
 Caso de Uso: Son secuencias de interacciones entre actores y un sistema que usan un servicio. 
 
 \begin{table}[]
-	\centering
-	\caption{Caso de uso 1}
-	\label{my-label}
-	\begin{tabular}{|l|l|}
-		\hline
-		Nombre      & Recibir apoyo alimentario                                 \\ \hline
-		Actores     & Estudiantes                                               \\ \hline
-		Escenario   &                                                           \\ \hline
-		Primario    & Recibir el apoyo alimentario                              \\ \hline
-		Secundario  & no coinciden horarios,                                    \\ \hline
-		Excepciones & no estar registrado, no es estudiante, se acabo la comida \\ \hline
-	\end{tabular}
+\centering
+\caption{Caso de Uso CU-1}
+\label{my-label}
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Nombre}      & Brindar Apoyo Alimentario                                                                                                                                                   \\ \hline
+\textbf{Actores}     & Estudiantes                                                                                                                                                                 \\ \hline
+\textbf{Escenario}   &                                                                                                                                                                             \\ \hline
+\textbf{Primario}    & Brindar Apoyo Alimentario                                                                                                                                                   \\ \hline
+\textbf{Secundario}  & No coinciden Horarios                                                                                                                                                       \\ \hline
+\textbf{Excepciones} & \begin{tabular}[c]{@{}l@{}}Solicitud de Inscripción no aceptada, Estudiante no Registrado, Se acabo el alimento,\\ Ser retirado del beneficio por alguna falla\end{tabular} \\ \hline
+\end{tabular}
 \end{table}
 
 \begin{table}[]
-	\centering
-	\caption{Caso de uso 2}
-	\label{my-label}
-	\begin{tabular}{|l|l|}
-		\hline
-		Nombre      & Realizar Inscripcion                                                                                                                                                                   \\ \hline
-		Actores     & Estudiante                                                                                                                                                                             \\ \hline
-		Escenario   &                                                                                                                                                                                        \\ \hline
-		Primario    & Inscribiruna solicitud al apoyo alimentario                                                                                                                                            \\ \hline
-		Secundario  & Olvido datos de usuario                                                                                                                                                                \\ \hline
-		Excepciones & \begin{tabular}[c]{@{}l@{}}No es estudiante o es un egresado, tener el semestre aplazado,\\  error con el servidor, error con el cliente\\ No hay convocatoria disponible\end{tabular} \\ \hline
-	\end{tabular}
+\centering
+\caption{Caso de Uso CU-2}
+\label{my-label}
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Nombre}      & Reclamar Repele                                                                                                                                          \\ \hline
+\textbf{Actores}     & Estudiantes                                                                                                                                              \\ \hline
+\textbf{Escenario}   &                                                                                                                                                          \\ \hline
+\textbf{Primario}    & Reclamar Repele                                                                                                                                          \\ \hline
+\textbf{Secundario}  &                                                                                                                                                          \\ \hline
+\textbf{Excepciones} & \begin{tabular}[c]{@{}l@{}}No sobro alimento, Estudiante no Registrado, Ser retirado del beneficio,\\ La hora del reclamo no es la adecuada\end{tabular} \\ \hline
+\end{tabular}
 \end{table}
 
 \begin{table}[]
-	\centering
-	\caption{Caso de uso 3}
-	\label{my-label}
-	\begin{tabular}{|l|l|}
-		\hline
-		Nombre      & Realizar Inscripcion                                                                                                                                    \\ \hline
-		Actores     & Cordinador Beinestar                                                                                                                                    \\ \hline
-		Escenario   &                                                                                                                                                         \\ \hline
-		Primario    & Generar convocatoria apoyo alimentario                                                                                                                  \\ \hline
-		Secundario  & Olvido datos de usuario                                                                                                                                 \\ \hline
-		Excepciones & \begin{tabular}[c]{@{}l@{}}No hay acceso a la plataforma, No tiene los permisos necesarios,\\  error con el servidor, error con el cliente\end{tabular} \\ \hline
-	\end{tabular}
+\centering
+\caption{Caso de Uso CU-3}
+\label{my-label}
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Nombre}      & Brindar Comodidad en el Servicio                                                                                                                                            \\ \hline
+\textbf{Actores}     & Administrativos, Estudiantes                                                                                                                                                \\ \hline
+\textbf{Escenario}   &                                                                                                                                                                             \\ \hline
+\textbf{Primario}    & Brindar Comodidad en el Servicio                                                                                                                                            \\ \hline
+\textbf{Secundario}  & Presentar Inscripción en la fechas no estipuladas                                                                                                                           \\ \hline
+\textbf{Excepciones} & \begin{tabular}[c]{@{}l@{}}Se presenta algún error en la Infreestructura, No se abríran convocatorias\\ No se cuentan con los espacios o horarios disponibles.\end{tabular} \\ \hline
+\end{tabular}
 \end{table}
+
+\begin{table}[]
+\centering
+\caption{Casso de Uso CU-4}
+\label{my-label}
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Nombre}      & Garantizar Correcta Asignación del Servicio                                                                                                                                                                                       \\ \hline
+\textbf{Actores}     & Empleados y Administrativos encargados del apoyo                                                                                                                                                                                  \\ \hline
+\textbf{Escenario}   &                                                                                                                                                                                                                                   \\ \hline
+\textbf{Primario}    & Garantizar Correcta Asignación del Servicio                                                                                                                                                                                       \\ \hline
+\textbf{Secundario}  & \begin{tabular}[c]{@{}l@{}}Presentarse en las horas no adecuadas, Presentar alguna inconveniente en un requerimiento\\ del Apoyo\end{tabular}                                                                                     \\ \hline
+\textbf{Excepciones} & \begin{tabular}[c]{@{}l@{}}Fallos en la Infreestructura, Falla del Personal encargado de brindar el servicio, \\ Inconvenientes presentados tanto en espacios como horarios habilitados para la entrega del servicio\end{tabular} \\ \hline
+\end{tabular}
+\end{table}
+
+\begin{table}[]
+\centering
+\caption{Caso de Uso CU-5}
+\label{my-label}
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Nombre}      & Facilitar Adquisición del Apoyo                                                                                                                                                      \\ \hline
+\textbf{Actores}     & Administrativos, Personal encargado de brindar el servicio                                                                                                                           \\ \hline
+\textbf{Escenario}   &                                                                                                                                                                                      \\ \hline
+\textbf{Primario}    & Facilitar Adquisión del Apoyo                                                                                                                                                        \\ \hline
+\textbf{Secundario}  & Presentar alguna inconsistencia en la inscripción o documentos que soportan la misma,                                                                                                \\ \hline
+\textbf{Excepciones} & \begin{tabular}[c]{@{}l@{}}Fallos en la Infreestructura, No poder optar por el beneficio por falta de cupos,\\ No tener el puntaje necesarios para recibir el beneficio\end{tabular} \\ \hline
+\end{tabular}
+\end{table}
+
 \clearpage
 % Please add the following required packages to your document preamble:
 % \usepackage[table,xcdraw]{xcolor}
