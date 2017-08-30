@@ -2,7 +2,6 @@
 
 \section{Introducción}
 
-\newpage
 
 \section{Diagrama de Casos de Uso}
 El diagrama de casos de uso es una forma de representar los requerimientos de un sistema, cada caso de uso reune una serie de requisitos basandose en diferemtes funciones o tareas.
@@ -11,46 +10,54 @@ El diagrama de casos de uso es una forma de representar los requerimientos de un
 Actor: Es una agrupacion uniforme de personas, sistemas o maquinas que interactuan con el sistema que estamos construyendo.   
 Caso de Uso: Son secuencias de interacciones entre actores y un sistema que usan un servicio. 
 
-\\
 \begin{table}[]
-\centering
-\caption{Caso de Uso 2}
-\label{my-label}
-\begin{tabular}{lllll}
-Nombre      & Realizar Inscripcion                                                                                                                                                                &  &  &  \\
-Actores     & Estudiante                                                                                                                                                                          &  &  &  \\
-Escenario   &                                                                                                                                                                                     &  &  &  \\
-Primario    & Inscribir una solicitud al apoyo alimentario                                                                                                                                        &  &  &  \\
-Secundario  & Olvido datos de usuario                                                                                                                                                             &  &  &  \\
-Excepciones & \begin{tabular}[c]{@{}l@{}}No es estudiante o es un egresado, tener el semestre aplazado, error con el servidor, error con el cliente\\ No hay convocatoria disponible\end{tabular} &  &  & 
-\end{tabular}
+	\centering
+	\caption{Caso de uso 1}
+	\label{my-label}
+	\begin{tabular}{|l|l|}
+		\hline
+		Nombre      & Recibir apoyo alimentario                                 \\ \hline
+		Actores     & Estudiantes                                               \\ \hline
+		Escenario   &                                                           \\ \hline
+		Primario    & Recibir el apoyo alimentario                              \\ \hline
+		Secundario  & no coinciden horarios,                                    \\ \hline
+		Excepciones & no estar registrado, no es estudiante, se acabo la comida \\ \hline
+	\end{tabular}
 \end{table}
 
+\begin{table}[]
+	\centering
+	\caption{Caso de uso 2}
+	\label{my-label}
+	\begin{tabular}{|l|l|}
+		\hline
+		Nombre      & Realizar Inscripcion                                                                                                                                                                   \\ \hline
+		Actores     & Estudiante                                                                                                                                                                             \\ \hline
+		Escenario   &                                                                                                                                                                                        \\ \hline
+		Primario    & Inscribiruna solicitud al apoyo alimentario                                                                                                                                            \\ \hline
+		Secundario  & Olvido datos de usuario                                                                                                                                                                \\ \hline
+		Excepciones & \begin{tabular}[c]{@{}l@{}}No es estudiante o es un egresado, tener el semestre aplazado,\\  error con el servidor, error con el cliente\\ No hay convocatoria disponible\end{tabular} \\ \hline
+	\end{tabular}
+\end{table}
 
-
-
-\\
-
-
+\begin{table}[]
+	\centering
+	\caption{Caso de uso 3}
+	\label{my-label}
+	\begin{tabular}{|l|l|}
+		\hline
+		Nombre      & Realizar Inscripcion                                                                                                                                    \\ \hline
+		Actores     & Cordinador Beinestar                                                                                                                                    \\ \hline
+		Escenario   &                                                                                                                                                         \\ \hline
+		Primario    & Generar convocatoria apoyo alimentario                                                                                                                  \\ \hline
+		Secundario  & Olvido datos de usuario                                                                                                                                 \\ \hline
+		Excepciones & \begin{tabular}[c]{@{}l@{}}No hay acceso a la plataforma, No tiene los permisos necesarios,\\  error con el servidor, error con el cliente\end{tabular} \\ \hline
+	\end{tabular}
+\end{table}
+\clearpage
 % Please add the following required packages to your document preamble:
 % \usepackage[table,xcdraw]{xcolor}
 % If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
-\begin{table}[]
-\centering
-\caption{Caso de Uso 3}
-\label{my-label}
-\begin{tabular}{ll}
-\cellcolor[HTML]{FFCB2F}Nombre & Generar convocatoria                                                                                           \\
-Actores                        & Cordinador Beinestar                                                                                           \\
-Escenario                      &                                                                                                                \\
-Primario                       & Generar convocatoria apoyo alimentario                                                                         \\
-Secundario                     & Olvido datos de usuario                                                                                        \\
-Excepciones                    & No hay acceso a la plataforma, No tiene los permisos necesarios  , error con el servidor, error con el cliente
-\end{tabular}
-\end{table}
-
-
-
 
 \newpage
 

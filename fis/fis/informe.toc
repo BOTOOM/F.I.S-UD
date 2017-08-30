@@ -14,7 +14,7 @@
 \contentsline {part}{II\hspace {1em}UML}{13}
 \contentsline {chapter}{\numberline {3}An\IeC {\'a}lisis}{15}
 \contentsline {section}{\numberline {3.1}Introducci\IeC {\'o}n}{15}
-\contentsline {section}{\numberline {3.2}Diagrama de Casos de Uso}{16}
+\contentsline {section}{\numberline {3.2}Diagrama de Casos de Uso}{15}
 \contentsline {section}{\numberline {3.3}Interacciones}{17}
 \contentsline {subsection}{\numberline {3.3.1}Diagrama de Secuencia}{18}
 \contentsline {subsection}{\numberline {3.3.2}Diagrama de Comunicaci\IeC {\'o}n}{19}

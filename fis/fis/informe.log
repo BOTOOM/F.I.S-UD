@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350) (preloaded format=pdflatex 2017.8.8)  23 AUG 2017 00:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350) (preloaded format=pdflatex 2017.8.8)  29 AUG 2017 22:32
 entering extended mode
 **./informe.tex
 (informe.tex
@@ -401,9 +401,15 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
  (proyecto/problema.aux) (proyecto/metodologia.aux)
-(uml/analisis.aux) (uml/diseno.aux) (uml/despliegue.aux)
-(conclusiones/conclusiones.aux) (conclusiones/trabajosfuturos.aux)
-(conclusiones/anexos.aux))
+(uml/analisis.aux
+
+LaTeX Warning: Label `my-label' multiply defined.
+
+
+LaTeX Warning: Label `my-label' multiply defined.
+
+) (uml/diseno.aux) (uml/despliegue.aux) (conclusiones/conclusiones.aux)
+(conclusiones/trabajosfuturos.aux) (conclusiones/anexos.aux))
 \openout1 = `informe.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
@@ -494,7 +500,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 6.
+(Font)              <10.95> on input line 5.
  [3])
 \tf@toc=\write3
 \openout3 = `informe.toc'.
@@ -690,24 +696,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 95--101
 
 LaTeX Info: Redefining \. on input line 101.
 LaTeX Info: Redefining \% on input line 101.
-[11])
-Underfull \hbox (badness 10000) in paragraph at lines 103--19
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 103--113
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--19
+Underfull \hbox (badness 10000) in paragraph at lines 103--113
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--19
+Underfull \hbox (badness 10000) in paragraph at lines 103--113
 
  []
 
+)
 LaTeX Info: Redefining \. on input line 19.
 LaTeX Info: Redefining \% on input line 19.
-[12] [13
+ [12] [13
 
 
 ] [14]
@@ -715,36 +722,65 @@ LaTeX Info: Redefining \% on input line 19.
 
  (uml/analisis.tex
 Cap\'{\i }tulo 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--12
+
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 13.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 28.
+
+
+Overfull \hbox (19.32785pt too wide) in paragraph at lines 32--41
+ [][] 
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 43.
+
+
+Overfull \hbox (30.27788pt too wide) in paragraph at lines 47--56
+ [][] 
+ []
+
 [15
 
 
 ]
-LaTeX Info: Redefining \. on input line 9.
-LaTeX Info: Redefining \% on input line 9.
+LaTeX Info: Redefining \. on input line 57.
+LaTeX Info: Redefining \% on input line 57.
  [16]
-LaTeX Info: Redefining \. on input line 13.
-LaTeX Info: Redefining \% on input line 13.
- [17]
-LaTeX Info: Redefining \. on input line 17.
-LaTeX Info: Redefining \% on input line 17.
+LaTeX Info: Redefining \. on input line 66.
+LaTeX Info: Redefining \% on input line 66.
+ [17
+
+]
+LaTeX Info: Redefining \. on input line 70.
+LaTeX Info: Redefining \% on input line 70.
  [18]
-LaTeX Info: Redefining \. on input line 21.
-LaTeX Info: Redefining \% on input line 21.
+LaTeX Info: Redefining \. on input line 74.
+LaTeX Info: Redefining \% on input line 74.
  [19]
-LaTeX Info: Redefining \. on input line 25.
-LaTeX Info: Redefining \% on input line 25.
+LaTeX Info: Redefining \. on input line 78.
+LaTeX Info: Redefining \% on input line 78.
  [20]
-LaTeX Info: Redefining \. on input line 29.
-LaTeX Info: Redefining \% on input line 29.
+LaTeX Info: Redefining \. on input line 82.
+LaTeX Info: Redefining \% on input line 82.
  [21]
-LaTeX Info: Redefining \. on input line 33.
-LaTeX Info: Redefining \% on input line 33.
+LaTeX Info: Redefining \. on input line 86.
+LaTeX Info: Redefining \% on input line 86.
  [22]
-LaTeX Info: Redefining \. on input line 37.
-LaTeX Info: Redefining \% on input line 37.
+LaTeX Info: Redefining \. on input line 90.
+LaTeX Info: Redefining \% on input line 90.
  [23]
-LaTeX Info: Redefining \. on input line 41.
-LaTeX Info: Redefining \% on input line 41.
+LaTeX Info: Redefining \. on input line 94.
+LaTeX Info: Redefining \% on input line 94.
  [24])
 \openout2 = `uml/diseno.aux'.
 
@@ -837,24 +873,27 @@ LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 (proyecto/problema.aux) (proyecto/metodologia.aux) (uml/analisis.aux)
 (uml/diseno.aux) (uml/despliegue.aux) (conclusiones/conclusiones.aux)
-(conclusiones/trabajosfuturos.aux) (conclusiones/anexos.aux)) ) 
+(conclusiones/trabajosfuturos.aux) (conclusiones/anexos.aux))
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 2756 strings out of 493323
- 36177 string characters out of 3139067
- 108114 words of memory out of 3000000
- 6210 multiletter control sequences out of 15000+200000
+ 2757 strings out of 493323
+ 36187 string characters out of 3139067
+ 108163 words of memory out of 3000000
+ 6211 multiletter control sequences out of 15000+200000
  10722 words of font info for 37 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,6n,30p,532b,413s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmsl10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.
-pfb>
-Output written on informe.pdf (45 pages, 145232 bytes).
+ 39i,13n,30p,532b,397s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmsl10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmti10.pfb>
+Output written on informe.pdf (45 pages, 146554 bytes).
 PDF statistics:
  176 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
