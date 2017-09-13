@@ -1,0 +1,22 @@
+\select@language {spanish}
+\contentsline {part}{I\hspace {1em}Proyecto}{5}
+\contentsline {chapter}{\numberline {1}Problema}{7}
+\contentsline {chapter}{\numberline {2}Metodolog\IeC {\'\i }a}{9}
+\contentsline {section}{\numberline {2.1}Manifiesto Agil}{9}
+\contentsline {subsection}{\numberline {2.1.1}Valores}{9}
+\contentsline {subsubsection}{Valorar a las personas y las interacciones entre ellas por sobre los procesos y las herramientas}{9}
+\contentsline {subsubsection}{Valorar el software funcionando por sobre la documentaci\IeC {\'o}n detallada}{9}
+\contentsline {subsubsection}{Valorar la colaboraci\IeC {\'o}n con el cliente por sobre la negociaci\IeC {\'o}n de contratos}{10}
+\contentsline {subsubsection}{Valorar la respuesta a los cambios por sobre el seguimiento estricto de los planes }{10}
+\contentsline {subsection}{\numberline {2.1.2}Principios}{10}
+\contentsline {section}{\numberline {2.2}Scrum}{11}
+\contentsline {subsection}{\numberline {2.2.1}En que se basa}{12}
+\contentsline {part}{II\hspace {1em}UML}{13}
+\contentsline {chapter}{\numberline {3}An\IeC {\'a}lisis}{15}
+\contentsline {section}{\numberline {3.1}Introducci\IeC {\'o}n}{15}
+\contentsline {section}{\numberline {3.2}Diagrama de Casos de Uso}{15}
+\contentsline {subsection}{\numberline {3.2.1}Diagrama de Secuencia}{18}
+\contentsline {subsection}{\numberline {3.2.2}Diagrama de Comunicaci\IeC {\'o}n}{22}
+\contentsline {chapter}{\numberline {4}Dise\IeC {\~n}o}{25}
+\contentsline {section}{\numberline {4.1}Introducci\IeC {\'o}n}{25}
+\contentsline {section}{\numberline {4.2}Diagrama de Clases}{26}
