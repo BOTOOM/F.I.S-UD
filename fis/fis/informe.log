@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350) (preloaded format=pdflatex 2017.9.4)  4 SEP 2017 17:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350) (preloaded format=pdflatex 2017.8.9)  13 SEP 2017 22:34
 entering extended mode
 **./informe.tex
 (informe.tex
@@ -414,8 +414,23 @@ LaTeX Warning: Label `my-label' multiply defined.
 
 LaTeX Warning: Label `my-label' multiply defined.
 
-) (uml/diseno.aux) (uml/despliegue.aux) (conclusiones/conclusiones.aux)
-(conclusiones/trabajosfuturos.aux) (conclusiones/anexos.aux))
+
+LaTeX Warning: Label `fig:Diagrama de Asistencia' multiply defined.
+
+
+LaTeX Warning: Label `fig:Registro del Usuario' multiply defined.
+
+
+LaTeX Warning: Label `fig:Crear convocatio del apoyo' multiply defined.
+
+
+LaTeX Warning: Label `fig:Solicitud para convocatoria' multiply defined.
+
+
+LaTeX Warning: Label `fig:Verificar solicitud a una convocatoria' multiply defi
+ned.
+
+) (uml/diseno.aux))
 \openout1 = `informe.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
@@ -508,16 +523,17 @@ LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 5.
-
-[3])
+)
 \tf@toc=\write3
 \openout3 = `informe.toc'.
 
+
+[3]
 LaTeX Info: Redefining \. on input line 17.
 LaTeX Info: Redefining \% on input line 17.
- [4] [5
+ [4
 
-] [6]
+] [5] [6]
 \openout2 = `proyecto/problema.aux'.
 
  (proyecto/problema.tex
@@ -795,140 +811,183 @@ LaTeX Info: Redefining \% on input line 95.
 LaTeX Info: Redefining \. on input line 95.
 LaTeX Info: Redefining \% on input line 95.
  [17]
-LaTeX Info: Redefining \. on input line 104.
-LaTeX Info: Redefining \% on input line 104.
- [18
+<uml/Asistencia.pdf, id=64, 430.0065pt x 177.76411pt>
+File: uml/Asistencia.pdf Graphic file (type pdf)
+ <use uml/Asistencia.pdf>
+Package pdftex.def Info: uml/Asistencia.pdf used on input line 109.
+(pdftex.def)             Requested size: 323.9978pt x 133.94118pt.
 
-]
-LaTeX Info: Redefining \. on input line 108.
-LaTeX Info: Redefining \% on input line 108.
- [19]
-LaTeX Info: Redefining \. on input line 112.
-LaTeX Info: Redefining \% on input line 112.
- [20]
-LaTeX Info: Redefining \. on input line 116.
-LaTeX Info: Redefining \% on input line 116.
- [21]
-LaTeX Info: Redefining \. on input line 120.
-LaTeX Info: Redefining \% on input line 120.
- [22]
-LaTeX Info: Redefining \. on input line 124.
-LaTeX Info: Redefining \% on input line 124.
- [23]
-LaTeX Info: Redefining \. on input line 128.
-LaTeX Info: Redefining \% on input line 128.
- [24]
-LaTeX Info: Redefining \. on input line 132.
-LaTeX Info: Redefining \% on input line 132.
- [25])
+<uml/RegUsu.pdf, id=65, 551.56062pt x 392.76736pt>
+File: uml/RegUsu.pdf Graphic file (type pdf)
+ <use uml/RegUsu.pdf>
+Package pdftex.def Info: uml/RegUsu.pdf used on input line 116.
+(pdftex.def)             Requested size: 396.0022pt x 282.00717pt.
+
+Overfull \hbox (36.0022pt too wide) in paragraph at lines 116--117
+ [][] 
+ []
+
+<uml/SecCrearConv.pdf, id=66, 533.29236pt x 344.98886pt>
+File: uml/SecCrearConv.pdf Graphic file (type pdf)
+
+<use uml/SecCrearConv.pdf>
+Package pdftex.def Info: uml/SecCrearConv.pdf used on input line 123.
+(pdftex.def)             Requested size: 503.9978pt x 326.04251pt.
+
+Overfull \hbox (143.9978pt too wide) in paragraph at lines 123--124
+ [][] 
+ []
+
+LaTeX Info: Redefining \. on input line 127.
+LaTeX Info: Redefining \% on input line 127.
+[18
+
+ <./uml/Asistencia.pdf> <./uml/RegUsu.pdf>]
+LaTeX Info: Redefining \. on input line 127.
+LaTeX Info: Redefining \% on input line 127.
+ [19 <./uml/SecCrearConv.pdf>]
+<uml/SecSolConv.pdf, id=80, 694.19348pt x 403.30673pt>
+File: uml/SecSolConv.pdf Graphic file (type pdf)
+
+<use uml/SecSolConv.pdf>
+Package pdftex.def Info: uml/SecSolConv.pdf used on input line 130.
+(pdftex.def)             Requested size: 468.0011pt x 271.89413pt.
+
+Overfull \hbox (108.0011pt too wide) in paragraph at lines 130--131
+ [][] 
+ []
+
+<uml/SecVerifSolConv.pdf, id=81, 544.53438pt x 419.46712pt>
+File: uml/SecVerifSolConv.pdf Graphic file (type pdf)
+
+<use uml/SecVerifSolConv.pdf>
+Package pdftex.def Info: uml/SecVerifSolConv.pdf used on input line 137.
+(pdftex.def)             Requested size: 503.9978pt x 388.23781pt.
+
+Overfull \hbox (143.9978pt too wide) in paragraph at lines 137--138
+ [][] 
+ []
+
+LaTeX Info: Redefining \. on input line 141.
+LaTeX Info: Redefining \% on input line 141.
+[20
+
+ <./uml/SecSolConv.pdf>]
+LaTeX Info: Redefining \. on input line 141.
+LaTeX Info: Redefining \% on input line 141.
+ [21 <./uml/SecVerifSolConv.pdf>]
+<uml/Comunicacion/ComAsist.pdf, id=92, 717.38014pt x 248.02661pt>
+File: uml/Comunicacion/ComAsist.pdf Graphic file (type pdf)
+
+<use uml/Comunicacion/ComAsist.pdf>
+Package pdftex.def Info: uml/Comunicacion/ComAsist.pdf used on input line 153.
+(pdftex.def)             Requested size: 323.9978pt x 112.01588pt.
+
+<uml/Comunicacion/ComReguU.pdf, id=93, 721.59584pt x 292.29198pt>
+File: uml/Comunicacion/ComReguU.pdf Graphic file (type pdf)
+
+<use uml/Comunicacion/ComReguU.pdf>
+Package pdftex.def Info: uml/Comunicacion/ComReguU.pdf used on input line 160.
+(pdftex.def)             Requested size: 396.0022pt x 160.40428pt.
+
+Overfull \hbox (36.0022pt too wide) in paragraph at lines 160--161
+ [][] 
+ []
+
+<uml/Comunicacion/ComCreConv.pdf, id=94, 678.73576pt x 286.671pt>
+File: uml/Comunicacion/ComCreConv.pdf Graphic file (type pdf)
+
+<use uml/Comunicacion/ComCreConv.pdf>
+Package pdftex.def Info: uml/Comunicacion/ComCreConv.pdf used on input line 167
+.
+(pdftex.def)             Requested size: 503.9978pt x 212.87245pt.
+
+Overfull \hbox (143.9978pt too wide) in paragraph at lines 167--168
+ [][] 
+ []
+
+LaTeX Info: Redefining \. on input line 171.
+LaTeX Info: Redefining \% on input line 171.
+[22
+
+ <./uml/Comunicacion/ComAsist.pdf> <./uml/Comunicacion/ComReguU.pdf>]
+LaTeX Info: Redefining \. on input line 171.
+LaTeX Info: Redefining \% on input line 171.
+
+[23 <./uml/Comunicacion/ComCreConv.pdf>]
+<uml/Comunicacion/ComSoliConv.pdf, id=107, 720.19063pt x 199.5455pt>
+File: uml/Comunicacion/ComSoliConv.pdf Graphic file (type pdf)
+
+<use uml/Comunicacion/ComSoliConv.pdf>
+Package pdftex.def Info: uml/Comunicacion/ComSoliConv.pdf used on input line 17
+4.
+(pdftex.def)             Requested size: 431.9989pt x 119.69472pt.
+
+Overfull \hbox (71.9989pt too wide) in paragraph at lines 174--175
+ [][] 
+ []
+
+<uml/Comunicacion/ComVer.pdf, id=108, 632.3625pt x 307.04712pt>
+File: uml/Comunicacion/ComVer.pdf Graphic file (type pdf)
+
+<use uml/Comunicacion/ComVer.pdf>
+Package pdftex.def Info: uml/Comunicacion/ComVer.pdf used on input line 181.
+(pdftex.def)             Requested size: 431.9989pt x 209.76378pt.
+
+Overfull \hbox (71.9989pt too wide) in paragraph at lines 181--182
+ [][] 
+ []
+
+LaTeX Info: Redefining \. on input line 186.
+LaTeX Info: Redefining \% on input line 186.
+[24
+
+ <./uml/Comunicacion/ComSoliConv.pdf> <./uml/Comunicacion/ComVer.pdf>])
 \openout2 = `uml/diseno.aux'.
 
 
 (uml/diseno.tex
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
- [26
-
-
-
-]
 Cap\'{\i }tulo 4.
-[27]
-LaTeX Info: Redefining \. on input line 9.
-LaTeX Info: Redefining \% on input line 9.
- [28]
-LaTeX Info: Redefining \. on input line 13.
-LaTeX Info: Redefining \% on input line 13.
- [29]
-LaTeX Info: Redefining \. on input line 17.
-LaTeX Info: Redefining \% on input line 17.
- [30]
-LaTeX Info: Redefining \. on input line 21.
-LaTeX Info: Redefining \% on input line 21.
- [31])
-\openout2 = `uml/despliegue.aux'.
-
- (uml/despliegue.tex
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
- [32
+[25
 
 
 
-]
-Cap\'{\i }tulo 5.
-[33]
-LaTeX Info: Redefining \. on input line 9.
-LaTeX Info: Redefining \% on input line 9.
- [34]
-LaTeX Info: Redefining \. on input line 13.
-LaTeX Info: Redefining \% on input line 13.
- [35]
-LaTeX Info: Redefining \. on input line 17.
-LaTeX Info: Redefining \% on input line 17.
- [36]
-LaTeX Info: Redefining \. on input line 21.
-LaTeX Info: Redefining \% on input line 21.
- [37])
-LaTeX Info: Redefining \. on input line 24.
-LaTeX Info: Redefining \% on input line 24.
- [38
+
+] <uml/Clases/ClasesCrearUsuario.pdf, id=120, 609.87848pt x 319.69438pt>
+File: uml/Clases/ClasesCrearUsuario.pdf Graphic file (type pdf)
+
+<use uml/Clases/ClasesCrearUsuario.pdf>
+Package pdftex.def Info: uml/Clases/ClasesCrearUsuario.pdf used on input line 1
+5.
+(pdftex.def)             Requested size: 431.9989pt x 226.448pt.
+
+Overfull \hbox (71.9989pt too wide) in paragraph at lines 15--16
+ [][] 
+ []
+
+LaTeX Info: Redefining \. on input line 20.
+LaTeX Info: Redefining \% on input line 20.
+[26 <./uml/Clases/ClasesCrearUsuario.pdf>]) (informe.bbl) [27
 
 
-] [39] [40]
-\openout2 = `conclusiones/conclusiones.aux'.
-
- (conclusiones/conclusiones.tex
-Cap\'{\i }tulo 6.
-) [41
-
-
-]
-\openout2 = `conclusiones/trabajosfuturos.aux'.
-
- (conclusiones/trabajosfuturos.tex
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
- [42
-
-
-
-]
-Cap\'{\i }tulo 7.
-) [43]
-\openout2 = `conclusiones/anexos.aux'.
-
- (conclusiones/anexos.tex
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
- [44
-
-
-
-]) [45] (informe.bbl
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
- [46
-
-
-]) [47] (informe.aux
+] (informe.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
+
 (proyecto/problema.aux) (proyecto/metodologia.aux) (uml/analisis.aux)
-(uml/diseno.aux) (uml/despliegue.aux) (conclusiones/conclusiones.aux)
-(conclusiones/trabajosfuturos.aux) (conclusiones/anexos.aux))
+(uml/diseno.aux))
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2764 strings out of 493323
- 36678 string characters out of 3136463
- 111174 words of memory out of 3000000
- 6216 multiletter control sequences out of 15000+200000
+ 2794 strings out of 493323
+ 37589 string characters out of 3136463
+ 110306 words of memory out of 3000000
+ 6262 multiletter control sequences out of 15000+200000
  10722 words of font info for 37 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,14n,30p,532b,397s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,14n,30p,532b,359s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/P
@@ -936,9 +995,9 @@ rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Prog
 ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program
  Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Program F
 iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on informe.pdf (47 pages, 167993 bytes).
+Output written on informe.pdf (27 pages, 373382 bytes).
 PDF statistics:
- 185 PDF objects out of 1000 (max. 8388607)
+ 153 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
