@@ -18,10 +18,12 @@
 \contentsline {subsection}{\numberline {3.2.1}Diagrama de Secuencia}{18}
 \contentsline {subsection}{\numberline {3.2.2}Diagrama de Comunicaci\IeC {\'o}n}{22}
 \contentsline {chapter}{\numberline {4}Dise\IeC {\~n}o}{25}
-\contentsline {section}{\numberline {4.1}Introducci\IeC {\'o}n}{25}
-\contentsline {section}{\numberline {4.2}Diagrama de Clases}{26}
-\contentsline {section}{\numberline {4.3}Patrones}{27}
-\contentsline {subsection}{\numberline {4.3.1}Creacionales}{27}
-\contentsline {subsubsection}{Builder}{27}
-\contentsline {subsection}{\numberline {4.3.2}Estructurales}{28}
-\contentsline {subsection}{\numberline {4.3.3}Comportamiento}{28}
+\contentsline {section}{\numberline {4.1}Diagrama de Clases}{25}
+\contentsline {section}{\numberline {4.2}Patrones}{26}
+\contentsline {subsection}{\numberline {4.2.1}Creacionales}{26}
+\contentsline {subsubsection}{Builder}{26}
+\contentsline {subsubsection}{Factory}{27}
+\contentsline {subsubsection}{Singleton}{28}
+\contentsline {subsection}{\numberline {4.2.2}Estructurales}{29}
+\contentsline {subsection}{\numberline {4.2.3}Comportamiento}{30}
+\contentsline {subsubsection}{Iterador}{30}
