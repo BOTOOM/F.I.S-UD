@@ -3,6 +3,8 @@ A level-1 auxiliary file: proyecto/problema.aux
 A level-1 auxiliary file: proyecto/metodologia.aux
 A level-1 auxiliary file: uml/analisis.aux
 A level-1 auxiliary file: uml/diseno.aux
+A level-1 auxiliary file: uml/patrones.aux
+A level-1 auxiliary file: conclusiones/anexos.aux
 The style file: plain.bst
 I found no \citation commands---while reading file informe.aux
 Database file #1: articulos.bib
