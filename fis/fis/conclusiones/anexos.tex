@@ -232,4 +232,258 @@ public void finalize() throws Throwable {
 
 \end{lstlisting}
 
+\newpage
+\subsection{Singleton}
+\begin{lstlisting}
+package ;
+public class BD{
+private static BD instance;
+private Connection conexion;
+public static BD getInstance(){}
+private  BD(){}
+public static Connection getConnection(){}
+}
+\end{lstlisting}
+
+\newpage
+\subsection{Iterator}
+\begin{lstlisting}
+package ;
+public class AllCondiciones implements Iterato{
+private ArrayList data;
+private Enumeration ec;
+private Condicion nextCondicion;
+public  AllCondiciones(){}
+public boolean hashNext(){}
+public Object next(){}
+public void remove(){}
+}
+
+
+package ;
+public class Condicion{
+private String id;
+private boolean estado;
+private String descripcion;
+public  Condicion(String inp_id,boolean inp_estado,String inp_descripcion){}
+}
+
+
+package ;
+public interface Iterato{
+/**
+
+*/
+boolean hashNext();
+/**
+
+*/
+Object next();
+/**
+
+*/
+void remove();
+}
+
+
+\end{lstlisting}
+
+
+
+\newpage
+
+public AFacultad(){
+
+}
+
+public void finalize() throws Throwable {
+
+}
+
+public abstract void CantidadCupos();
+
+public abstract void Descripcion();
+
+public abstract void FechaFin();
+
+public abstract void FechaInicio();
+
+}
+
+
+public class Convocatoria {
+
+public Convocatoria(){
+
+}
+
+public void finalize() throws Throwable {
+
+}
+
+}
+
+
+public class FacAmbiente extends AFacultad {
+
+public FacAmbiente(){
+
+}
+
+public void finalize() throws Throwable {
+super.finalize();
+}
+
+public void CantidadCupos(){
+
+}
+
+public void Descripcion(){
+
+}
+
+public void FechaFin(){
+
+}
+
+public void FechaInicio(){
+
+}
+
+}
+
+
+
+public class FacCiencias extends AFacultad {
+
+public FacCiencias(){
+
+}
+
+public void finalize() throws Throwable {
+super.finalize();
+}
+
+public void CantidadCupos(){
+
+}
+
+public void Descripcion(){
+
+}
+
+public void FechaFin(){
+
+}
+
+public void FechaInicio(){
+
+}
+
+}
+
+
+public class FacIngenieria extends AFacultad {
+
+public FacIngenieria(){
+
+}
+
+public void finalize() throws Throwable {
+super.finalize();
+}
+
+public void CantidadCupos(){
+
+}
+
+public void Descripcion(){
+
+}
+
+public void FechaFin(){
+
+}
+
+public void FechaInicio(){
+
+}
+
+}
+
+
+public class FacPosgrados extends AFacultad {
+
+public FacPosgrados(){
+
+}
+
+public void finalize() throws Throwable {
+super.finalize();
+}
+
+public void CantidadCupos(){
+
+}
+
+public void Descripcion(){
+
+}
+
+public void FechaFin(){
+
+}
+
+public void FechaInicio(){
+
+}
+
+}
+
+public class FacTecnologica extends AFacultad {
+
+public FacTecnologica(){
+
+}
+
+public void finalize() throws Throwable {
+super.finalize();
+}
+
+public void CantidadCupos(){
+
+}
+
+public void Descripcion(){
+
+}
+
+public void FechaFin(){
+
+}
+
+public void FechaInicio(){
+
+}
+
+}
+
+
+public class Organizador {
+
+public AFacultad m_AFacultad;
+
+public Organizador(){
+
+}
+
+public void finalize() throws Throwable {
+
+}
+
+}
+
+
+\end{lstlisting}
+
 
