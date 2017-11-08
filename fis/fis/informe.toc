@@ -1,34 +1,37 @@
 \select@language {spanish}
-\contentsline {part}{I\hspace {1em}Proyecto}{5}
-\contentsline {chapter}{\numberline {1}Problema}{7}
-\contentsline {chapter}{\numberline {2}Metodolog\IeC {\'\i }a}{9}
-\contentsline {section}{\numberline {2.1}Manifiesto Agil}{9}
-\contentsline {subsection}{\numberline {2.1.1}Valores}{9}
-\contentsline {subsubsection}{Valorar a las personas y las interacciones entre ellas por sobre los procesos y las herramientas}{9}
-\contentsline {subsubsection}{Valorar el software funcionando por sobre la documentaci\IeC {\'o}n detallada}{9}
-\contentsline {subsubsection}{Valorar la colaboraci\IeC {\'o}n con el cliente por sobre la negociaci\IeC {\'o}n de contratos}{10}
-\contentsline {subsubsection}{Valorar la respuesta a los cambios por sobre el seguimiento estricto de los planes }{10}
-\contentsline {subsection}{\numberline {2.1.2}Principios}{10}
-\contentsline {section}{\numberline {2.2}Scrum}{11}
-\contentsline {subsection}{\numberline {2.2.1}En que se basa}{12}
-\contentsline {part}{II\hspace {1em}UML}{13}
-\contentsline {chapter}{\numberline {3}An\IeC {\'a}lisis}{15}
-\contentsline {section}{\numberline {3.1}Introducci\IeC {\'o}n}{15}
-\contentsline {section}{\numberline {3.2}Diagrama de Casos de Uso}{15}
-\contentsline {subsection}{\numberline {3.2.1}Diagrama de Secuencia}{18}
-\contentsline {subsection}{\numberline {3.2.2}Diagrama de Comunicaci\IeC {\'o}n}{22}
-\contentsline {chapter}{\numberline {4}Dise\IeC {\~n}o}{25}
-\contentsline {section}{\numberline {4.1}Diagrama de Clases}{25}
-\contentsline {chapter}{\numberline {5}Patrones}{27}
-\contentsline {section}{\numberline {5.1}Patrones}{27}
-\contentsline {subsection}{\numberline {5.1.1}Creacionales}{27}
-\contentsline {subsubsection}{Builder}{27}
-\contentsline {subsubsection}{Factory}{29}
-\contentsline {subsubsection}{Singleton}{30}
-\contentsline {subsection}{\numberline {5.1.2}Estructurales}{31}
-\contentsline {subsection}{\numberline {5.1.3}Comportamiento}{32}
-\contentsline {subsubsection}{Iterador}{32}
-\contentsline {subsubsection}{State}{33}
-\contentsline {section}{\numberline {5.2}Codigo Patrones}{35}
-\contentsline {subsection}{\numberline {5.2.1}Estado}{35}
-\contentsline {subsection}{\numberline {5.2.2}Builder}{36}
+\contentsline {part}{I\hspace {1em}Proyecto}{5}{part.1}
+\contentsline {chapter}{\numberline {1}Problema}{7}{chapter.1}
+\contentsline {chapter}{\numberline {2}Metodolog\IeC {\'\i }a}{9}{chapter.2}
+\contentsline {section}{\numberline {2.1}Manifiesto Agil}{9}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Valores}{9}{subsection.2.1.1}
+\contentsline {subsubsection}{Valorar a las personas y las interacciones entre ellas por sobre los procesos y las herramientas}{9}{section*.2}
+\contentsline {subsubsection}{Valorar el software funcionando por sobre la documentaci\IeC {\'o}n detallada}{9}{section*.3}
+\contentsline {subsubsection}{Valorar la colaboraci\IeC {\'o}n con el cliente por sobre la negociaci\IeC {\'o}n de contratos}{10}{section*.4}
+\contentsline {subsubsection}{Valorar la respuesta a los cambios por sobre el seguimiento estricto de los planes }{10}{section*.5}
+\contentsline {subsection}{\numberline {2.1.2}Principios}{10}{subsection.2.1.2}
+\contentsline {section}{\numberline {2.2}Scrum}{11}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}En que se basa}{12}{subsection.2.2.1}
+\contentsline {part}{II\hspace {1em}UML}{13}{part.2}
+\contentsline {chapter}{\numberline {3}An\IeC {\'a}lisis}{15}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introducci\IeC {\'o}n}{15}{section.3.1}
+\contentsline {section}{\numberline {3.2}Diagrama de Casos de Uso}{15}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Diagrama de Secuencia}{18}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Diagrama de Comunicaci\IeC {\'o}n}{22}{subsection.3.2.2}
+\contentsline {chapter}{\numberline {4}Dise\IeC {\~n}o}{25}{chapter.4}
+\contentsline {section}{\numberline {4.1}Diagrama de Clases}{25}{section.4.1}
+\contentsline {chapter}{\numberline {5}Patrones}{29}{chapter.5}
+\contentsline {section}{\numberline {5.1}Patrones}{29}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Creacionales}{29}{subsection.5.1.1}
+\contentsline {subsubsection}{Builder}{29}{section*.6}
+\contentsline {subsubsection}{Factory}{31}{section*.7}
+\contentsline {subsubsection}{Singleton}{32}{section*.8}
+\contentsline {subsection}{\numberline {5.1.2}Estructurales}{33}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Comportamiento}{34}{subsection.5.1.3}
+\contentsline {subsubsection}{Iterador}{34}{section*.9}
+\contentsline {subsubsection}{State}{35}{section*.10}
+\contentsline {section}{\numberline {5.2}Codigo Patrones}{37}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Estado}{37}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Builder}{38}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Singleton}{43}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Iterator}{44}{subsection.5.2.4}
+\contentsline {subsection}{\numberline {5.2.5}Builder}{45}{subsection.5.2.5}

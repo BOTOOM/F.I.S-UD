@@ -1,0 +1,27 @@
+\BOOKMARK [-1][-]{part.1}{I Proyecto}{}% 1
+\BOOKMARK [0][-]{chapter.1}{Problema}{part.1}% 2
+\BOOKMARK [0][-]{chapter.2}{Metodolog\355a}{part.1}% 3
+\BOOKMARK [1][-]{section.2.1}{Manifiesto Agil}{chapter.2}% 4
+\BOOKMARK [2][-]{subsection.2.1.1}{Valores}{section.2.1}% 5
+\BOOKMARK [2][-]{subsection.2.1.2}{Principios}{section.2.1}% 6
+\BOOKMARK [1][-]{section.2.2}{Scrum}{chapter.2}% 7
+\BOOKMARK [2][-]{subsection.2.2.1}{En que se basa}{section.2.2}% 8
+\BOOKMARK [-1][-]{part.2}{II UML}{}% 9
+\BOOKMARK [0][-]{chapter.3}{An\341lisis}{part.2}% 10
+\BOOKMARK [1][-]{section.3.1}{Introducci\363n}{chapter.3}% 11
+\BOOKMARK [1][-]{section.3.2}{Diagrama de Casos de Uso}{chapter.3}% 12
+\BOOKMARK [2][-]{subsection.3.2.1}{Diagrama de Secuencia}{section.3.2}% 13
+\BOOKMARK [2][-]{subsection.3.2.2}{Diagrama de Comunicaci\363n}{section.3.2}% 14
+\BOOKMARK [0][-]{chapter.4}{Dise\361o}{part.2}% 15
+\BOOKMARK [1][-]{section.4.1}{Diagrama de Clases}{chapter.4}% 16
+\BOOKMARK [0][-]{chapter.5}{Patrones}{part.2}% 17
+\BOOKMARK [1][-]{section.5.1}{Patrones}{chapter.5}% 18
+\BOOKMARK [2][-]{subsection.5.1.1}{Creacionales}{section.5.1}% 19
+\BOOKMARK [2][-]{subsection.5.1.2}{Estructurales}{section.5.1}% 20
+\BOOKMARK [2][-]{subsection.5.1.3}{Comportamiento}{section.5.1}% 21
+\BOOKMARK [1][-]{section.5.2}{Codigo Patrones}{chapter.5}% 22
+\BOOKMARK [2][-]{subsection.5.2.1}{Estado}{section.5.2}% 23
+\BOOKMARK [2][-]{subsection.5.2.2}{Builder}{section.5.2}% 24
+\BOOKMARK [2][-]{subsection.5.2.3}{Singleton}{section.5.2}% 25
+\BOOKMARK [2][-]{subsection.5.2.4}{Iterator}{section.5.2}% 26
+\BOOKMARK [2][-]{subsection.5.2.5}{Builder}{section.5.2}% 27
