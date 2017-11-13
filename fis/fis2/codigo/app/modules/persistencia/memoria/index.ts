@@ -1,0 +1,1 @@
+export { MemoriaDBA } from "./MemoriaDBA";

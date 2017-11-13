@@ -1,0 +1,21 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "module": "commonjs",
+        "outDir": "functions",
+        "rootDir": ".",
+        "target": "es6",
+        "noImplicitAny": false,
+        "removeComments": true,
+        "sourceMap": false,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true
+    },
+    "files": [
+        "index.ts",
+        "express.ts"
+    ],
+    "include": [
+        "app/**/*.ts"
+    ]
+}

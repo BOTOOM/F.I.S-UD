@@ -1,0 +1,249 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.8 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\sortlist[entry]{nyt/global/}
+  \entry{Pw8M}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{booktitle}{Jummp}
+    \field{title}{{Acoplamiento aferente, acoplamiento eferente, inestabilidad
+  y abstracci{\'{o}}n I}}
+    \verb{url}
+    \verb https://jummp.wordpress.com/2010/06/26/acoplamiento-aferente-acoplami
+    \verb ento-eferente-inestabilidad-y-abstraccion-i/
+    \endverb
+    \field{year}{2010}
+    \field{urlday}{20}
+    \field{urlmonth}{05}
+    \field{urlyear}{2017}
+  \endentry
+
+  \entry{Pw6AM}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{abstract}{%
+    DESARROLLO DE APLICACIONES PARA AMBIENTES DISTRIBUIDOS"%
+    }
+    \field{title}{{Aplicaciones Monolíticas}}
+    \verb{url}
+    \verb https://laurmolina7821.wordpress.com/1-1-1-aplicaciones-monoliticas/
+    \endverb
+    \field{year}{2013}
+    \field{urlday}{17}
+    \field{urlmonth}{05}
+    \field{urlyear}{2017}
+  \endentry
+
+  \entry{Pw5DE}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{booktitle}{WikiUml}
+    \field{title}{{Diagrama de Estados}}
+    \verb{url}
+    \verb https://wikiuml.wikispaces.com/Diagrama+de+Estados
+    \endverb
+    \field{year}{2011}
+    \field{urlday}{21}
+    \field{urlmonth}{05}
+    \field{urlyear}{2017}
+  \endentry
+
+  \entry{Pw7DC}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{booktitle}{Microsoft}
+    \field{title}{{Diagramas de componentes de UML}}
+    \verb{url}
+    \verb https://msdn.microsoft.com/es-es/library/dd409390.aspx
+    \endverb
+    \field{year}{2015}
+    \field{urlday}{15}
+    \field{urlmonth}{05}
+    \field{urlyear}{2017}
+  \endentry
+
+  \entry{Pw3DS}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{booktitle}{Microsoft}
+    \field{title}{{Diagramas de secuencia UML: Referencia}}
+    \verb{url}
+    \verb https://msdn.microsoft.com/es-co/library/dd409377.aspx
+    \endverb
+    \field{year}{2015}
+    \field{urlday}{20}
+    \field{urlmonth}{05}
+    \field{urlyear}{2017}
+  \endentry
+
+  \entry{Pw2CU}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=I}{%
+         family={IBM},
+         familyi={I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{I1}
+    \strng{fullhash}{I1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \field{booktitle}{IBm Knowledge Center}
+    \field{title}{{Casos de Uso}}
+    \verb{url}
+    \verb https://www.ibm.com/support/knowledgecenter/es/SSWSR9{\_}11.0.0/com.i
+    \verb bm.pim.dev.doc/pim{\_}tsk{\_}arc{\_}definingusecases.html
+    \endverb
+    \field{year}{2013}
+    \field{urlday}{20}
+    \field{urlmonth}{05}
+    \field{urlyear}{2017}
+  \endentry
+
+  \entry{N1}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{abstract}{%
+    Falta de educaci{\'{o}}n financiera, heredada desde sus hogares, temor al
+  cr{\'{e}}dito y confiar en sus emociones, son tres causas que provocan malas
+  decisiones.%
+    }
+    \field{booktitle}{Portafolio}
+    \field{title}{{¿Por qu{\'{e}} los j{\'{o}}venes son malos ahorradores y no
+  saben administrar sus finanzas?}}
+    \verb{url}
+    \verb www.portafolio.co/mis-finanzas/manejo-de-las-deudas-y-el-ahorro-en-lo
+    \verb s-jovenes-499665
+    \endverb
+    \list{location}{1}{%
+      {Bogot{\'{a}} D.C.}%
+    }
+    \field{year}{2016}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Pw1RUP}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{booktitle}{ProcesosdeSoftware}
+    \field{title}{{ProcesosdeSoftware - METODOLOGIA RUP}}
+    \verb{url}
+    \verb https://procesosdesoftware.wikispaces.com/METODOLOGIA+RUP
+    \endverb
+    \field{year}{2016}
+    \field{urlday}{20}
+    \field{urlmonth}{05}
+    \field{urlyear}{2017}
+  \endentry
+
+  \entry{Pw9Cmp}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=S}{%
+         family={{STAN-Structure Analysis for Java}},
+         familyi={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{S1}
+    \strng{fullhash}{S1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{booktitle}{stan4j.com}
+    \field{title}{{Composition View}}
+    \verb{url}
+    \verb http://stan4j.com/dependencies/composition.html
+    \endverb
+    \field{year}{2008}
+    \field{urlday}{21}
+    \field{urlmonth}{05}
+    \field{urlyear}{2017}
+  \endentry
+
+  \entry{Pw11D}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=S}{%
+         family={{STAN-Structure Analysis for Java}},
+         familyi={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{S1}
+    \strng{fullhash}{S1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{booktitle}{stan4j.com}
+    \field{title}{{Stable Abstractions Principle}}
+    \verb{url}
+    \verb http://stan4j.com/advanced/stable-abstractions-principle.html
+    \endverb
+    \field{year}{2008}
+    \field{urlday}{21}
+    \field{urlmonth}{05}
+    \field{urlyear}{2017}
+  \endentry
+
+  \entry{Pw10V&P}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=S}{%
+         family={{STAN-Structure Analysis for Java}},
+         familyi={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{S1}
+    \strng{fullhash}{S1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{booktitle}{stan4j.com}
+    \field{title}{{Violations}}
+    \verb{url}
+    \verb http://stan4j.com/metrics/violations.html
+    \endverb
+    \field{year}{2008}
+    \field{urlday}{21}
+    \field{urlmonth}{05}
+    \field{urlyear}{2017}
+  \endentry
+
+  \entry{Pw4DC}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{U}
+    \field{sortinithash}{U}
+    \field{title}{{UML: LOS DIAGRAMAS DE COMUNICACI{\'{O}}N}}
+    \verb{url}
+    \verb http://diagramas-comunicacion-uml.blogspot.com.co/2009/02/los-diagram
+    \verb as-de-comunicacion.html
+    \endverb
+    \field{year}{2009}
+    \field{urlday}{20}
+    \field{urlmonth}{05}
+    \field{urlyear}{2017}
+  \endentry
+\endsortlist
+\endinput

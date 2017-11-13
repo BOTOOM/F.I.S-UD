@@ -1,0 +1,99 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {spanish}
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{\@mypartnumtocformat {I}{Contextualizaci\IeC {\'o}n}}{7}{part.1}
+\ttl@starttoc {default@1}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Problema}{9}{chapter.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Problema}{9}{section.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Objetivos}{9}{section.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.3}Hipotesis:}{9}{section.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.4}Justificaci\IeC {\'o}n:}{10}{section.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Metodolog\IeC {\'\i }a}{11}{chapter.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Manifiesto Agil}{11}{section.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.1}Valores}{11}{subsection.2.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Valorar a las personas y las interacciones entre ellas por sobre los procesos y las herramientas}{11}{section*.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Valorar el software funcionando por sobre la documentaci\IeC {\'o}n detallada}{11}{section*.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Valorar la colaboraci\IeC {\'o}n con el cliente por sobre la negociaci\IeC {\'o}n de contratos}{12}{section*.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Valorar la respuesta a los cambios por sobre el seguimiento estricto de los planes }{12}{section*.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.2}Principios}{12}{subsection.2.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Scrum}{13}{section.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.1}En que se basa}{13}{subsection.2.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{\@mypartnumtocformat {II}{Dise\IeC {\~n}o}}{15}{part.2}
+\ttl@stoptoc {default@1}
+\ttl@starttoc {default@2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Requerimientos}{17}{chapter.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Casos de uso}{17}{section.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Requerimientos de Casos de uso}{18}{section.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}An\IeC {\'a}lisis del sistema e interacci\IeC {\'o}n}{21}{chapter.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Diagramas de secuencia}{21}{section.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Diagrama del control de asistencia}{22}{section*.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Diagrama del Registro de usuarios}{23}{section*.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Diagrama para crear nuevas convocatorias}{24}{section*.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Diagrama del registro a convocatoria existentes}{24}{section*.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Diagrama de la verificacion de una solicitud a una convocatoria}{25}{section*.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Diagramas de comunicaci\IeC {\'o}n}{26}{section.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Diagrama del control de asistencia}{26}{section*.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Diagrama del registrode usuarios}{27}{section*.13}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Diagrama de la creacion de una convocatoria}{27}{section*.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Diagrama para la solicitud a una convocatoria}{28}{section*.15}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Diagrama de la verificacion de una solicitud}{28}{section*.16}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Diagramas de clases}{29}{section.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.1}Creacionales}{30}{subsection.4.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Builder}{30}{section*.17}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Factory}{31}{section*.18}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Singleton}{32}{section*.19}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.2}Comportamiento}{33}{subsection.4.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Iterador}{33}{section*.20}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{State}{33}{section*.21}
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{\@mypartnumtocformat {III}{Reflexiones}}{35}{part.3}
+\ttl@stoptoc {default@2}
+\ttl@starttoc {default@3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Conclusiones, Trabajos Futuros}{37}{chapter.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Conclusiones}{37}{section.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}Trabajos Futuros}{38}{section.5.2}
+\contentsfinish 
