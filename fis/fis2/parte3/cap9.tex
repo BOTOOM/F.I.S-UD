@@ -1,0 +1,73 @@
+\chapterimage{anexos.jpg} % Table of contents heading image
+\chapter*{Anexos}
+\section{Código}
+\lstinputlisting[language=TypeScript]{codigo/express.ts}
+%\lstinputlisting[language=TypeScript]{codigo/index.ts}
+\subsection{Paquete app}
+\subsubsection{Paquete common en app}
+\lstinputlisting[language=TypeScript]{codigo/app/common/index.ts}
+\paragraph{Paquete util en common}
+\lstinputlisting[language=TypeScript]{codigo/app/common/util/index.ts}
+\lstinputlisting[language=TypeScript]{codigo/app/common/util/ManageTimes.ts}
+\lstinputlisting[language=TypeScript]{codigo/app/common/util/Periodicidad.ts}
+\lstinputlisting[language=TypeScript]{codigo/app/common/util/Random.ts}
+\subsubsection{Paquete modules en app}
+\lstinputlisting[language=TypeScript]{codigo/app/modules/index.ts}
+\paragraph{Paquete comandosPersistencia en modules}
+\lstinputlisting[language=TypeScript]{codigo/app/modules/comandosPersistencia/index.ts}
+\lstinputlisting[language=TypeScript]{codigo/app/modules/comandosPersistencia/ComandoActualizarFlujo.ts}
+\lstinputlisting[language=TypeScript]{codigo/app/modules/comandosPersistencia/ComandoConsultarFlujo.ts}
+\lstinputlisting[language=TypeScript]{codigo/app/modules/comandosPersistencia/ComandoConsultarUnicoFlujo.ts}
+\lstinputlisting[language=TypeScript]{codigo/app/modules/comandosPersistencia/ComandoCrearUsuario.ts}
+\lstinputlisting[language=TypeScript]{codigo/app/modules/comandosPersistencia/ComandoEliminarFlujo.ts}
+\lstinputlisting[language=TypeScript]{codigo/app/modules/comandosPersistencia/ComandoGuardarFlujo.ts}
+\lstinputlisting[language=TypeScript]{codigo/app/modules/comandosPersistencia/ComandoVerificarUsuario.ts}
+\lstinputlisting[language=TypeScript]{codigo/app/modules/comandosPersistencia/IComandoCrud.ts}
+
+\paragraph{Paquete Persistencia en modules}
+\lstinputlisting[language=TypeScript]{codigo/app/modules/persistencia/DBA.ts}
+\lstinputlisting[language=TypeScript]{codigo/app/modules/persistencia/FabricaDBA.ts}
+\lstinputlisting[language=TypeScript]{codigo/app/modules/persistencia/IFlujoDBA.ts}
+\lstinputlisting[language=TypeScript]{codigo/app/modules/persistencia/index.ts}
+\lstinputlisting[language=TypeScript]{codigo/app/modules/persistencia/ISugerenciaDBA.ts}
+\lstinputlisting[language=TypeScript]{codigo/app/modules/persistencia/IUsuarioDBA.ts}	
+\subparagraph{Paquete Memoria en persistencia}
+.\\
+\lstinputlisting[language=TypeScript]{codigo/app/modules/persistencia/memoria/index.ts}
+\lstinputlisting[language=TypeScript]{codigo/app/modules/persistencia/memoria/ListaFlujos.ts}
+\lstinputlisting[language=TypeScript]{codigo/app/modules/persistencia/memoria/ListaMemoria.ts}
+\lstinputlisting[language=TypeScript]{codigo/app/modules/persistencia/memoria/ListaSugerencias.ts}
+\lstinputlisting[language=TypeScript]{codigo/app/modules/persistencia/memoria/ListaUsuarios.ts}
+\lstinputlisting[language=TypeScript]{codigo/app/modules/persistencia/memoria/MemoriaDBA.ts}
+
+\paragraph{Paquete movimientos en modules}
+\lstinputlisting[language=TypeScript]{codigo/app/modules/movimientos/index.ts}
+\subparagraph{Paquete clases en movimientos}
+.\\
+\lstinputlisting[language=TypeScript]{codigo/app/modules/movimientos/clases/Flujo.ts}
+\lstinputlisting[language=TypeScript]{codigo/app/modules/movimientos/clases/FlujoEgreso.ts}
+\lstinputlisting[language=TypeScript]{codigo/app/modules/movimientos/clases/FlujoIngreso.ts}
+\lstinputlisting[language=TypeScript]{codigo/app/modules/movimientos/clases/Movimiento.ts}
+\lstinputlisting[language=TypeScript]{codigo/app/modules/movimientos/clases/Sugerencia.ts}
+\lstinputlisting[language=TypeScript]{codigo/app/modules/movimientos/clases/SugerenciaEgreso.ts}
+\lstinputlisting[language=TypeScript]{codigo/app/modules/movimientos/clases/SugerenciaIngreso.ts}	
+
+\subparagraph{Paquete fabricaAbstracta en movimientos}
+.\\
+\lstinputlisting[language=TypeScript]{codigo/app/modules/movimientos/fabricaAbstracta/FabricaEgreso.ts}
+\lstinputlisting[language=TypeScript]{codigo/app/modules/movimientos/fabricaAbstracta/FabricaIngreso.ts}
+\lstinputlisting[language=TypeScript]{codigo/app/modules/movimientos/fabricaAbstracta/IFabricaMovimientos.ts}
+
+\paragraph{Paquete obervador en modules}
+\lstinputlisting[language=TypeScript]{codigo/app/modules/observador/index.ts}
+\lstinputlisting[language=TypeScript]{codigo/app/modules/observador/IObservador.ts}
+\lstinputlisting[language=TypeScript]{codigo/app/modules/observador/Notificador.ts}
+
+\subsubsection{Paquete src en app}
+\lstinputlisting[language=TypeScript]{codigo/app/src/Servidor.ts}
+\paragraph{Paquete presentacion en src}
+\lstinputlisting[language=TypeScript]{codigo/app/src/presentacion/Enrutador.ts}
+\paragraph{Paquete servicios en src}
+\lstinputlisting[language=TypeScript]{codigo/app/src/servicios/index.ts}
+\lstinputlisting[language=TypeScript]{codigo/app/src/servicios/CrearFlujo.ts}
+\lstinputlisting[language=TypeScript]{codigo/app/src/servicios/IServicios.ts}
