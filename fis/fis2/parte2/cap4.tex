@@ -20,7 +20,7 @@ Un diagrama de secuencia es aquel en el que se muestra la interacción entre act
 
 Es importante resaltar que cada diagrama de secuencia se realiza en torno a la descripción de un caso de uso dado, ya que éste define el orden en que se deban distribuir las tareas para cada una de las entidades que son participes a la hora de representar cada caso.
 
-Para este proyecto se realizaron 3 casos de uso de los cuales se va a crear un diagrama de secuencia por cada caso y uno para cada enfoque. Inicialmente el caso de uso de REQ-PE (Establecer Panorama) tanto en el enfoque de las tres capas como en el de objetos, igualmente se hará con los dos casos de uso faltantes REQ-ME (Mejora de Estado) y REQ-COM (Comparación Futura) dado que estos incluyen obligatoriamente el anterior.
+Para este proyecto se realizaron 5 casos de uso de los cuales se va a crear un diagrama de secuencia por cada caso y uno para cada enfoque. Inicialmente el caso de uso de .
 
 A continuación se describirá cada diagrama de secuencia:
 
@@ -32,10 +32,15 @@ A continuación se describirá cada diagrama de secuencia:
 	\caption[Diagrama de secuencia de registro de Asistencia]{Diagrama de secuencia para el registro del control de asistencia}
 	\label{fig:diagramadesecuencia1}
 \end{figure}
+Este diagrama de secuencia explica el funcionamiento del programa frente al control de asistencia de los estudiantes al apoyo alimentario.
+\\
+Para este caso el estudiante representa el usuario que ingresa al programa y que mediante el escaneo del codigo del carnet realiza la actualizacion de asistencia en la base de datos.
 
-Las operaciones de los objetos se remiten a guardar y a mostrar una bandera positiva acerca del estado de guardado.
+ 
 
-Para establecer el panorama se deben agregar en la base de datos tanto los egresos como los ingresos, pero estos a su vez necesitan ser modificados y/o eliminados conforme pase el tiempo y el estado financiero de la persona cambie, todas estas operaciones se basan en la lectura y/o escritura sobre una base de datos, mientras la interfaz facilita la interacción.
+
+
+
 
 \paragraph{Diagrama del Registro de usuarios}
 \begin{figure}[H]
@@ -45,13 +50,9 @@ Para establecer el panorama se deben agregar en la base de datos tanto los egres
 	\label{fig:diagramadesecuencia2}
 \end{figure}
 
-El objeto de sugerencias se encarga de desplegar la lista de sugerencias guardadas en base de datos y da la posibilidad de descartar alguna en específico a criterio del usuario.
+Este diagrama de secuencia representa el registro de un usuario. Para lo cual el usuario ingresa sus datos selecciona un rol y realiza el click para registrar los datos y consulta dentro de la base de datos la existencia del usuario y si existe se envia un mensaje que alerta sobre la existencia del usuario. 
 
-Con los primeros datos de ingresos y egresos en base de datos, el programa da unas recomendaciones para un periodo específico acerca de cómo distribuir los ingresos, o en qué cosas se debe invertir más dinero que en otras.
 
-Conforme se van agregando datos y acumulando sugerencias, se da la posibilidad de que la aplicación muestre proyecciones acerca de un estado futuro comparan un futuro y otro donde se ubique un futuro donde se haga caso a una o más sugerencias del programa.
-
-Listar las sugerencias no descartadas de base de datos para alimentar las proyecciones, y sobre ésta lista permitir seleccionar cuales sugerencias quiere proyectar y cuales descartar
 
 \paragraph{Diagrama para crear nuevas convocatorias}
 \begin{figure}[H]
@@ -60,9 +61,10 @@ Listar las sugerencias no descartadas de base de datos para alimentar las proyec
 	\caption[Diagrama de secuencia Crear convocatoria]{Diagrama de secuencia para crear una nueva convocatoria}
 	\label{fig:diagramadesecuencia5}
 \end{figure}
+Este diagrama de secuencia representa el registro de convocatorias de apoyo alimentario dentro del aplicativo.El programa registra los datos para los cuales nescesita realizar la carga  datos, fechas y detalles especificos de cada convocatoria que al final mediante una consulta a la base de datos define si se puede crear o no la convocatoria.
 
-Las comparaciones dadas por el programa se dan a partir del flujo de ingresos y egresos dados por el usuario, versus las sugerencias dadas por la aplicación, posteriormente, después de que el usuario seleccione una o mas posibilidades arrojadas por el programa este genera gráficas de estimaciones acerca de como estaría su situación económico haciendo caso de las sugerencias del programa sobre su situación actual y las contrasta con un proyección en donde no cambia ninguna recomendación. 
 
+ 
 \paragraph{Diagrama del registro a convocatoria existentes}
 \begin{figure}[H]
 	\centering
@@ -70,7 +72,9 @@ Las comparaciones dadas por el programa se dan a partir del flujo de ingresos y 
 	\caption[Diagrama de secuencia Registro a una convocatoria]{Diagrama de secuencia para el registro a una convocatoria}
 	\label{fig:diagramadesecuencia3}
 \end{figure}
-Básicamente, para el diagrama de secuencia enfocado a objetos, el caso de uso REQ-EP solo necesita entrada de datos (tanto para egresos como para ingresos) que son los que permiten que la aplicación empiece un trabajo de background de análisis y desarrollo de sugerencias para el usuario.
+
+En este diagrama se realiza la solicitud de los usuarios a una nueva convocatoria. Para este proceso es nescesario que los usuarios carguen toda la informacion que luego se registra en la base de datos.
+
 
 \paragraph{Diagrama de la verificacion de una solicitud a una convocatoria}
 \begin{figure}[H]
@@ -80,7 +84,7 @@ Básicamente, para el diagrama de secuencia enfocado a objetos, el caso de uso R
 	\label{fig:diagramadesecuencia4}
 \end{figure}
 
-Para la muestra de sugerencias, el objeto debe proveer la forma de visualizarlas para el usuario, por lo cual este lanza el mensaje de ver sugerencia, y dentro de la lista desplegada, el usuario puede descartar alguna sugerencia en especifico a criterio personal, por lo cual este es un mensaje del objeto a si mismo.
+Para este diagrama representamos la intereaccion que tiene un usuario revisor con las solicitudes presentes en la base de datos. En este caso el revisor realiza la seleccion de la facultad y se muestra un listado de las solicitudes de dicha facultad y se escoge la solicitud y consulta en la base de datos la solicitud escogida. Envia los datos de la revision y los datos aceptados a los cuales le calcula el puntaje y envia los datos a la base de datos
 
 \newpage
 
@@ -100,9 +104,13 @@ Los diagramas de comunicación tienen la función de simplificar la visualizaci�
 	\label{fig:diagramaDeComunicacion}
 \end{figure}
 
-En el diagrama de la figura 4.7 se tiene que el usuario invoca la vista general de los ingresos y egresos, y es desde la cual agrega un nuevo ingreso al enviar el mensaje de "nuevoIngresoOEgreso", que se encarga de llamar a la base de datos por medio del método "guardarRegistro" y en tanto, y al momento de realizarse este la lista invoca otro método de la vista encargado de actualizar la lista de mensajes que también llama a la base de datos mediante el mensaje "leerRegistros".\newline%newpage para machetear y que no se vea tan paila
+En la figura 4.6 la interfaz envia el mensaje "informar asistencia()" al objeto control que a su vez envia un mensaje "regisrarasistencia()" a la base de datos.
 
-\paragraph{Diagrama del registrode usuarios}
+
+\newpage
+%newpage para machetear y que no se vea tan paila
+
+\paragraph{Diagrama del registro de usuarios}
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\linewidth]{parte2/imgs/DiagramaComunicacion/ComReguU}
@@ -110,7 +118,7 @@ En el diagrama de la figura 4.7 se tiene que el usuario invoca la vista general 
 	\label{fig:diagramaDeComunicacion3}
 \end{figure}
 
-Para la comunicación entre el usuario y el objeto de sugerencias se usa el mensaje "verSugerencias" y en donde el objeto de sugerencias provee la forma de eliminar sugerencias usando el mensaje "descartarSugerencia"
+En la figura 4.7 el usuario envia los mensajes "IngresarClave()", "IngrearCodigo()" a la interface,la interface envia el siguiente mensaje "EnviarDatos()"  al control 
 
 \paragraph{Diagrama de la creacion de una convocatoria}
 \begin{figure}[H]
@@ -120,7 +128,7 @@ Para la comunicación entre el usuario y el objeto de sugerencias se usa el mens
 	\label{fig:diagramaDeComunicacion5}
 \end{figure}
 
-En el diagrama 4.9 vemos la relación que existe entre el usuario con la aplicación para ver la comparativa de su estado económico actual con el posible estado económico que puede tener al seguir rigurosamente las sugerencias que le brinda la aplicación, si nos guiamos por las flechas del diagrama vemos como el actor le pide a la interfaz de comparaciones el método "mostrarComparativa" en dónde se le mostrará al usuario dicha comparación traida del control usando el método "leerComparaciones", las cuales se desarrollan a través del proceso de datos tanto del usuario como de los tentativos datos de mejoras que podemos encontrar en nuestra base de datos, para ello utilizamos el método "leerDatos" y con esto estaría terminado la forma en que se comunican las entidades de la aplicación destinadas a cumplir este caso de uso.
+En la figura 4.8 el coordinador  envia los datos a la interfaz mediante el mensaje "cargarDatos()" y la interface mediante "EnvioDatos()" envia los datos a la base de datos y mediante "RealizarSolicitud()" envia datos de la solicitud a la base de datos, la base de datos recive "datos()" y se envia un mensaje de verificacion de datos "verificarfecha()".
 
 \paragraph{Diagrama para la solicitud a una convocatoria}
 \begin{figure}[H]
@@ -130,17 +138,17 @@ En el diagrama 4.9 vemos la relación que existe entre el usuario con la aplicac
 	\label{fig:diagramaDeComunicacion2}
 \end{figure}
 
-Para la figura 4.10 se puede ver la independencia de los procesos de inserción de egreso e ingreso, en donde los objetos respectivos se encargan de guardarlo.
+Para la figura 4.9  el estudiante envia los datos para la solicitud de la convocatoria a la interfaz y la interfaz envia y recive mensaje a la base de datos
 
 \paragraph{Diagrama de la verificacion de una solicitud}
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1\linewidth]{parte2/imgs/DiagramaComunicacion/Comver}
+	\includegraphics[width=1\linewidth]{parte2/imgs/DiagramaComunicacion/ComVer}
 	\caption[Diagrama de Comunicacion verificacion solicitud]{Diagrama de Comunicación de la  verificacion de una solicitud}
 	\label{fig:diagramaDeComunicacion4}
 \end{figure}
 
-La interacción entre el usuario y la lista de sugerencias no se realiza a través de mensajes, pero para descartar sugerencias se realizan mediante el mensaje "descartarSugerencias" que se encarga de llamar a la base de datos mediante "eliminarSugerencia" para borrar una sugerencia en la base de datos, y se vuelve a cargar los datos para actualizar la lista de sugerencias es la vista.
+Para figura 4.10 el revisor realiza las peticiones de las solicitudes mediante la interfaz a la base de datos y revisa los datos de los solicitantes para que despues se calcule el puntaje 
 
 \newpage
 
@@ -152,6 +160,8 @@ Para una análisis orientado al desarrollo del aplicativo se plantean los diagra
 \begin{itemize}
 	\item  \textbf{Clase}: Esta es la entidad que representara un objeto que interviene en la solución del problema. Su ilustración es un rectángulo dividido en 3 niveles: En el primero esta el nombre, el segundo es para los atributos y el ultimo es para las operaciones de dicho objeto
 	\item \textbf{Relación}: Las relaciones se encargan de mostrar como es la interacción entre las clases de un diagrama, permite la comunicación entre las mismas y se dividen en 4 fundamentalmente
+	
+	
 	\begin{itemize}
 		\item \textit{\textbf{Herencia}}: Se encuentra en las clases cuando una clase "es una" clase aparte ya definida, en donde la herencia permite realizar una especialización, o en sentido inverso, hacer una generalización de unas características o comportamientos.
 		\item \textit{\textbf{Dependencia}}: Se da cuando una clase depende de otra para su existencia o uso, pero la existencia de la primera no interfiere en la existencia de la segunda.
@@ -174,7 +184,8 @@ En los siguientes diagramas se mostraran algunos patrones de diseño en nuestra 
 	\label{fig:fabricaAbstracta}
 \end{figure}
 
-El patrón de diseño Abstract Factory permite agrupar la creación de objetos mediante una interfaz de creación compartida por fabricas que se especializan en crear los objetos de un grupo especifico. Este patrón nos sirve para la creación de sugerencias y flujos económicos ya que estos comparten atributos y una interfaz de comportamiento, por lo que las fabricas solo deben ocuparse de construir objetos de algún tipo de objeto que es o egreso o ingreso.
+Como Patrón de diseño, el patrón builder (Constructor) es usado para permitir la creación de una variedad de objetos complejos desde un objeto fuente (Producto), el objeto fuente se compone de una variedad de partes que contribuyen individualmente a la creación de cada objeto complejo a través de un conjunto de llamadas a interfaces comunes de la clase Abstract Builder. En este caso la construccion se hace a travez de la creacion de convocatorias de cada facultad.
+
 
 \paragraph{Factory}
 \begin{figure}[H]
@@ -184,7 +195,7 @@ El patrón de diseño Abstract Factory permite agrupar la creación de objetos m
 	\label{fig:facade}
 \end{figure}
 
-El patrón de diseño Facade se encarga principalmente es de encapsular la complejidad de un modulo y permitir el acceso a este solo a través de una fachada, que se provee por medio de una interfaz para que otros módulos puedan consumir los servicios del modulo sin que se enfrenten a la complejidad del mismo. Se selecciono éste para la gestión de las conexiones a la base de datos ya que cada motor ofrece una forma distinta de consumo de servicios, ademas de distintos controladores con los que trabajar, por lo que es mas sencillo encerrar todas esas clases dentro de un solo modulo y proveer una interfaz estandarizada para hacer uso de la conexión
+En diseño de software, el patrón de diseño Factory Method consiste en utilizar una clase constructora (al estilo del Abstract Factory) abstracta con unos cuantos métodos definidos y otro(s) abstracto(s): el dedicado a la construcción de objetos de un subtipo de un tipo determinado. Es una simplificación del Abstract Factory, en la que la clase abstracta tiene métodos concretos que usan algunos de los abstractos; según usemos una u otra hija de esta clase abstracta, tendremos uno u otro comportamiento. En esta caso implementamos el patron Factory Method para la creacion de diferentes personas que pueden ser estudiantes,coordinador y revisor ya que a pesar de ser hijos del mismo tipo las clases realizan distintas funciones en el software. 
 
 \paragraph{Singleton}
 \begin{figure}[H]
@@ -194,7 +205,7 @@ El patrón de diseño Facade se encarga principalmente es de encapsular la compl
 	\label{fig:puente}
 \end{figure}
 
-El patrón de diseño Bridge permite separar comportamientos diferentes usando una interfaz, y al momento de ejecutarse el metodo de la interfaz, sea cual sea el comportamiento seleccionado, este se ejecuta sin necesidad de que quienes lo invoquen sepan que contiene realmente. Este patrón resulta útil al momento de realizar operaciones sobre la base de datos ya que elimina la necesidad de saber que base de datos se esta usando en cierto momento, y solo ejecuta el llamado del método de la interfaz para efectuar cierta operación en especifico.
+En ingeniería de software, singleton o instancia única es un patrón de diseño que permite restringir la creación de objetos pertenecientes a una clase o el valor de un tipo a un único objeto. Su intención consiste en garantizar que una clase sólo tenga una instancia y proporcionar un punto de acceso global a ella.El patrón singleton se implementa creando en nuestra clase un método que crea una instancia del objeto sólo si todavía no existe alguna. Para asegurar que la clase no puede ser instanciada nuevamente se regula el alcance del constructor (con modificadores de acceso como protegido o privado). En este caso aplicamos este patron para controlar el acceso a la base de datos.
 
 \subsection{Comportamiento}
 
@@ -202,19 +213,20 @@ El patrón de diseño Bridge permite separar comportamientos diferentes usando u
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\linewidth]{parte2/imgs/Patrones/Iterador}
-	\caption[Diagrama de clases del patrón Command]{Diagrama de Clase para la ejecucion de acciones de CRUD mediante el patron de diseño Comando}
+	\caption[Diagrama de clases del patrón Iterador]{Diagrama de Clase para la ejecucion de acciones de CRUD mediante el patron de diseño Comando}
 	\label{fig:command}
 \end{figure}
 
-El patrón de diseño Command se concibe como un ejecutor de funciones, haciendo que cada clase que implementa la interfaz command tenga dentro de si el objeto que debe ejecutar la función, pero sin conocer puntualmente cual es. Para la realización de operaciones CRUD (Create-Read-Update-Delete) desde los servicios el command se encarga de llamar en cada command concreto una función crud en particular, sin conocer cual es su contenido sino simplemente lanzando su ejecución
+Proporcionar una forma de acceder a los elementos de un objeto agregado de forma secuencial sin exponer sus detalles. En este caso me permite analizar todas las condiciones que hay para evaluar el puntaje de la solicitud al apoyo alimentario.
+
+
 
 \paragraph{State}
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\linewidth]{parte2/imgs/Patrones/Estado}
-	\caption[Diagrama de clases del patrón Mediator]{Diagrama de Clase para la relacion entre flujos financieros y sugerencias mediante el patron de diseño Mediator}
+	\caption[Diagrama de clases del patrón State]{Diagrama de Clase para la relacion entre flujos financieros y sugerencias mediante el patron de diseño Mediator}
 	\label{fig:mediador}
 \end{figure}
-
-El patrón de diseño Mediator encapsula la interacción entre dos o mas clases sin hacer que estas se traten directamente. Para relacionar sugerencias y flujos económicos resulta útil para evitar el acoplamiento entre ellos al relacionar, por ejemplo, que flujos interfieren en una sugerencia especifica, o también en cuantas sugerencias interviene un mismo flujo.
+El patrón de diseño State se utiliza cuando el comportamiento de un objeto cambia dependiendo del estado del mismo. Por ejemplo: una alarma puede tener diferentes estados, como desactivada, activada, en configuración. En este caso permite manejar el estado el cambio de una solicitud de aceptado, rechazado y revicion.
 
