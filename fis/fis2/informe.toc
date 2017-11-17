@@ -12,7 +12,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.3}Hipotesis:}{9}{section.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.4}Justificaci\IeC {\'o}n:}{10}{section.1.4}
+\contentsline {section}{\numberline {1.4}Justificaci\IeC {\'o}n:}{9}{section.1.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}Metodolog\IeC {\'\i }a}{11}{chapter.2}
 \defcounter {refsection}{0}\relax 
@@ -30,7 +30,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1.2}Principios}{12}{subsection.2.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Scrum}{13}{section.2.2}
+\contentsline {section}{\numberline {2.2}Scrum}{12}{section.2.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.1}En que se basa}{13}{subsection.2.2.1}
 \defcounter {refsection}{0}\relax 
@@ -48,57 +48,57 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Diagrama del control de asistencia}{22}{section*.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Diagrama del Registro de usuarios}{23}{section*.8}
+\contentsline {paragraph}{Diagrama del Registro de usuarios}{22}{section*.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Diagrama para crear nuevas convocatorias}{24}{section*.9}
+\contentsline {paragraph}{Diagrama para crear nuevas convocatorias}{23}{section*.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Diagrama del registro a convocatoria existentes}{24}{section*.10}
+\contentsline {paragraph}{Diagrama del registro a convocatoria existentes}{23}{section*.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Diagrama de la verificacion de una solicitud a una convocatoria}{25}{section*.11}
+\contentsline {paragraph}{Diagrama de la verificacion de una solicitud a una convocatoria}{24}{section*.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Diagramas de comunicaci\IeC {\'o}n}{26}{section.4.2}
+\contentsline {section}{\numberline {4.2}Diagramas de comunicaci\IeC {\'o}n}{25}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Diagrama del control de asistencia}{26}{section*.12}
+\contentsline {paragraph}{Diagrama del control de asistencia}{25}{section*.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Diagrama del registrode usuarios}{27}{section*.13}
+\contentsline {paragraph}{Diagrama del registro de usuarios}{26}{section*.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Diagrama de la creacion de una convocatoria}{27}{section*.14}
+\contentsline {paragraph}{Diagrama de la creacion de una convocatoria}{26}{section*.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Diagrama para la solicitud a una convocatoria}{28}{section*.15}
+\contentsline {paragraph}{Diagrama para la solicitud a una convocatoria}{27}{section*.15}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Diagrama de la verificacion de una solicitud}{28}{section*.16}
+\contentsline {paragraph}{Diagrama de la verificacion de una solicitud}{27}{section*.16}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Diagramas de clases}{29}{section.4.3}
+\contentsline {section}{\numberline {4.3}Diagramas de clases}{28}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.1}Creacionales}{30}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.1}Creacionales}{29}{subsection.4.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Builder}{30}{section*.17}
+\contentsline {paragraph}{Builder}{29}{section*.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Factory}{31}{section*.18}
+\contentsline {paragraph}{Factory}{30}{section*.18}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Singleton}{32}{section*.19}
+\contentsline {paragraph}{Singleton}{31}{section*.19}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.2}Comportamiento}{33}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.2}Comportamiento}{32}{subsection.4.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Iterador}{33}{section*.20}
+\contentsline {paragraph}{Iterador}{32}{section*.20}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{State}{33}{section*.21}
+\contentsline {paragraph}{State}{32}{section*.21}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\@mypartnumtocformat {III}{Reflexiones}}{35}{part.3}
+\contentsline {part}{\@mypartnumtocformat {III}{Reflexiones}}{33}{part.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Conclusiones}{37}{chapter.5}
+\contentsline {chapter}{\numberline {5}Conclusiones}{35}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Conclusiones}{37}{section.5.1}
+\contentsline {section}{\numberline {5.1}Conclusiones}{35}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Anexos}{39}{chapter.6}
+\contentsline {chapter}{\numberline {6}Anexos}{37}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}C\IeC {\'o}digo de los patrones}{39}{section.6.1}
+\contentsline {section}{\numberline {6.1}C\IeC {\'o}digo de los patrones}{37}{section.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.1}Patron Estado}{39}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.1}Patron Estado}{37}{subsection.6.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.2}Patron Builder}{40}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.2}Patron Builder}{38}{subsection.6.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.3}Patron Singleton}{43}{subsection.6.1.3}
+\contentsline {subsection}{\numberline {6.1.3}Patron Singleton}{41}{subsection.6.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.4}Patron Iterador}{43}{subsection.6.1.4}
+\contentsline {subsection}{\numberline {6.1.4}Patron Iterador}{41}{subsection.6.1.4}
 \contentsfinish 

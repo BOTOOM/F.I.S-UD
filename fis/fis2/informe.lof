@@ -14,33 +14,33 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Diagrama de secuencia de registro de Asistencia}}{22}{figure.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Diagrama de secuencia Registrar Usuario}}{23}{figure.4.2}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Diagrama de secuencia Registrar Usuario}}{22}{figure.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Diagrama de secuencia Crear convocatoria}}{24}{figure.4.3}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Diagrama de secuencia Crear convocatoria}}{23}{figure.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Diagrama de secuencia Registro a una convocatoria}}{24}{figure.4.4}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Diagrama de secuencia Registro a una convocatoria}}{23}{figure.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Diagrama de secuencia Verificacion de solicitud}}{25}{figure.4.5}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Diagrama de secuencia Verificacion de solicitud}}{24}{figure.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Diagrama de Comunicacion Control de asistencia}}{26}{figure.4.6}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Diagrama de Comunicacion Control de asistencia}}{25}{figure.4.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Diagrama de Comunicacion del registro de usuarios}}{27}{figure.4.7}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Diagrama de Comunicacion del registro de usuarios}}{26}{figure.4.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Diagrama de Comunicacion cfracion Covoactoria}}{27}{figure.4.8}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Diagrama de Comunicacion cfracion Covoactoria}}{26}{figure.4.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Diagrama de Comunicacion Solicitud a Convocatoria}}{28}{figure.4.9}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Diagrama de Comunicacion Solicitud a Convocatoria}}{27}{figure.4.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Diagrama de Comunicacion verificacion solicitud}}{28}{figure.4.10}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Diagrama de Comunicacion verificacion solicitud}}{27}{figure.4.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Diagrama de clases del patr\IeC {\'o}n Builder}}{30}{figure.4.11}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Diagrama de clases del patr\IeC {\'o}n Builder}}{29}{figure.4.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Diagrama de clases del patr\IeC {\'o}n Facade}}{31}{figure.4.12}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Diagrama de clases del patr\IeC {\'o}n Facade}}{30}{figure.4.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Diagrama de clases del patr\IeC {\'o}n Singleton}}{32}{figure.4.13}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Diagrama de clases del patr\IeC {\'o}n Singleton}}{31}{figure.4.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Diagrama de clases del patr\IeC {\'o}n Command}}{33}{figure.4.14}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Diagrama de clases del patr\IeC {\'o}n Iterador}}{32}{figure.4.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Diagrama de clases del patr\IeC {\'o}n Mediator}}{33}{figure.4.15}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Diagrama de clases del patr\IeC {\'o}n State}}{32}{figure.4.15}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
