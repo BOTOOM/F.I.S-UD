@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350) (preloaded format=pdflatex 2017.8.8)  17 NOV 2017 00:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350) (preloaded format=pdflatex 2017.8.8)  17 NOV 2017 22:31
 entering extended mode
 **./informe.tex
 (informe.tex
@@ -1666,20 +1666,8 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 LaTeX Info: Redefining \sptext on input line 33.
 LaTeX Info: Redefining \. on input line 33.
 LaTeX Info: Redefining \% on input line 33.
- (parte1/cap1.aux) (parte1/cap2.aux) (parte2/cap3.aux
-
-LaTeX Warning: Label `my-label' multiply defined.
-
-
-LaTeX Warning: Label `my-label' multiply defined.
-
-
-LaTeX Warning: Label `my-label' multiply defined.
-
-
-LaTeX Warning: Label `my-label' multiply defined.
-
-) (parte2/cap4.aux) (parte2/cap5.aux) (parte3/cap8.aux) (parte3/cap9.aux))
+ (parte1/cap1.aux) (parte1/cap2.aux) (parte2/cap3.aux)
+(parte2/cap4.aux) (parte2/cap5.aux) (parte3/cap8.aux) (parte3/cap9.aux))
 \openout1 = `informe.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
@@ -2429,18 +2417,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--42
 Underfull \hbox (badness 10000) in paragraph at lines 36--42
 
  []
-
-
-! Package enumitem Error: 1. undefined.
-
-See the enumitem package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.50 \begin{enumerate}[1.]
-                          
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 43--50
@@ -4042,9 +4018,6 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 123.
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: There were multiply-defined labels.
-
-
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
 (biblatex)                informe
 (biblatex)                and rerun LaTeX afterwards.
@@ -4054,10 +4027,10 @@ Package logreq Info: Writing requests to 'informe.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38778 strings out of 493323
- 712328 string characters out of 3139067
- 1151776 words of memory out of 3000000
- 41035 multiletter control sequences out of 15000+200000
+ 38779 strings out of 493323
+ 712305 string characters out of 3139067
+ 1151905 words of memory out of 3000000
+ 41036 multiletter control sequences out of 15000+200000
  645925 words of font info for 264 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,17n,59p,10512b,3437s stack positions out of 5000i,500n,10000p,200000b,50000s
