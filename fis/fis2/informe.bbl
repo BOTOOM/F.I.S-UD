@@ -17,6 +17,53 @@
 \endgroup
 
 \sortlist[entry]{nyt/global/}
+  \entry{Pw6AM}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{abstract}{%
+    DESARROLLO DE APLICACIONES PARA AMBIENTES DISTRIBUIDOS"%
+    }
+    \field{title}{{Aplicaciones Monolíticas}}
+    \verb{url}
+    \verb https://laurmolina7821.wordpress.com/1-1-1-aplicaciones-monoliticas/
+    \endverb
+    \field{year}{2013}
+    \field{urlday}{17}
+    \field{urlmonth}{05}
+    \field{urlyear}{2017}
+  \endentry
+
+  \entry{Pw5DE}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{booktitle}{WikiUml}
+    \field{title}{{Diagrama de Estados}}
+    \verb{url}
+    \verb https://wikiuml.wikispaces.com/Diagrama+de+Estados
+    \endverb
+    \field{year}{2011}
+    \field{urlday}{21}
+    \field{urlmonth}{05}
+    \field{urlyear}{2017}
+  \endentry
+
+  \entry{Pw7DC}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{booktitle}{Microsoft}
+    \field{title}{{Diagramas de componentes de UML}}
+    \verb{url}
+    \verb https://msdn.microsoft.com/es-es/library/dd409390.aspx
+    \endverb
+    \field{year}{2015}
+    \field{urlday}{15}
+    \field{urlmonth}{05}
+    \field{urlyear}{2017}
+  \endentry
+
   \entry{Pw3DS}{misc}{}
     \field{labeltitlesource}{title}
     \field{sortinit}{D}
