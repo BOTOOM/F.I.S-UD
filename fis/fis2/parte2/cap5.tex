@@ -9,29 +9,30 @@ Nuestro software posee elementos que tiene diferentes estados, para poder observ
 
 Los diagramas de estado son un método conocido para explicar el comportamiento de un sistema. Que explican todos los estados posibles en los que puede ingresar un objeto particular y la manera en que modifica el estado del objeto, como resultado de los eventos que llegan a el. Permite identificar bajo qué pruebas se ejecuta cada uno de los procesos y en qué momento podrían tener una variación. El diagrama de estados permite visualizar de una forma ordenada la ejecución de cada uno de los procesos \cite{Pw5DE}.
 
-La figura mostrada a continuación tiene el diagrama de estados del ciclo de vida que sufre la clase FlujoEconomico la cual puede encontrarse en tres diferentes estados, ACTIVO, EN ESPERA y FINALIZADO. El disparo a nivel general es la operación verificarTiempo la cual recibe como parámetro un tiempoActual, y es una referencia para poder realizar comparaciones y establecer así el efecto que se lleva acabo de forma determinada. Ahora bien, existen tres transiciones entre cada fase:
-
-Desde el estado ACTIVO hacia el estado EN ESPERA la condición es que el tiempoActual sea diferente el tiempoDeEjecucion y que sea de naturaleza cíclica para poder pasar al efecto de suspender.
-
-Desde el estado EN ESPERA hacia el estado ACTIVO la condición es que el tiempoActual sea igual al tiempoDeEjecucion y cuyo efecto es el de notificar.
-
-Desde el estado ACTIVO a FINALIZADO la condición es que es que el tiempoActual sea mayor al tiempoDeEjecución y no sea ciclico para desembocar en el efecto de finalizar.
+La siguiente figura muestra el ciclo de vida que puede tener una solicutud a la adquisicion al apoyo alimentario el cual puede encontrarse en tres diferentes estados, REVISION, ACEPTADO,RECHAZADO. Aquel evento odetonador que provoca el cambio de estado es las Condiciones el cual envia un True o unFalse dependiendo de como lo evalue el revisor y determine si dicha solicitusd cumple los requisitos. Ahora bien, existen dos transiciones entre cada fase:
+\bigskip
+\begin{itemize}
+	\item De estado REVISION a ACEPTADO:este cambio de estado se provoca cuando la evaluacion del revisor determina que la solicitud cumple las condiciones y da su visto bueno a dicha solicitud, asignadole al detonador Condiciones el valor de True produciendo el cambio de estado.
+	
+	\item De estado REVISION a RECHAZADO: es cambio entre estos estados es producido cuando el revisor determina que la solicitud enviada no cumple con las condiciones necesrias para adquirir el beneficio ya sea por falta de datos o por datos incorrectos, en dicho caso el revisor rechaza la solicitud ,asignado al detonador condiciones el valor de False, provocando el cambio de estado.
+	
+\end{itemize}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1\linewidth]{parte2/imgs/DiagramaDeEstado/estados}
+	\includegraphics[width=1\linewidth]{parte2/imgs/DiagramaDeEstado/Estados}
 	\caption{Diagrama de Estado}
 	\label{fig:diagramaEstado}
 \end{figure}
 
 \paragraph{Diagrama de clases} 
 
-En el siguiente esquema se muestra la clase foco que es FlujoEconomico, ésta es la que cambia de estados según las condiciones dadas, para ello debe tener como atributos un ESTADO, que es el que va a variar, y los métodos necesarios para actuar a la hora de cambiar de estado.
+En el siguiente esquema se muestra la clase foco que es GestionSolicitud, ésta es la que cambia de estados según las condiciones dadas, para ello debe tener como atributos un ESTADO, que es el que va a variar, y los métodos necesarios para actuar a la hora de cambiar de estado.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1\linewidth]{parte2/imgs/DiagramaDeEstado/claseEstados}
-	\caption{Diagrama de Clase FlujoEconomico}
+	\includegraphics[width=0.8\linewidth]{parte2/imgs/DiagramaDeEstado/claseEstados}
+	\caption{Diagrama de Clase Gestion de Solicitud}
 	\label{fig:diagramaEstadoClase}
 \end{figure}
 
@@ -42,7 +43,7 @@ El siguiente es código de nuestra clase, éste es generado por el programa de s
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\linewidth]{parte2/imgs/DiagramaDeEstado/codigo}
-	\caption{código de Clase FlujoEconomico}
+	\caption{código de Clase Gestion Solicitud}
 	\label{fig:diagramaEstadoClaseCodigo}
 \end{figure}\newpage
 
@@ -59,26 +60,16 @@ Para desarrollarlo se implementan diferentes elementos como:
 	\item \textbf{Estado final}: Es el estado al que debe llegar el flujo cuando se culmine el proceso y no hayan más transiciones.
 \end{itemize}
 
-Para el software de EconomApp podemos encontrar, entre sus diferentes actividades, dos actividades relevantes: Inserción de un flujo a la base de datos y Selección de sugerencias, estas tienen un grado de complejidad mayor al resto de actividades y por ello a continuación se describirán los flujos de trabajo para cada uno.
+Para el software G.A.A.UD se realizo un diagrama de flujo el cual encierra las actividades fundamentales del software, iniciando desde el momento que el estudiante realiza la solicitud al apoyo alimentario hasta el momento en que es notificado si recibio dicho beneficio o no.
 
-\paragraph{Inserción de un flujo a la base de datos}
+\paragraph{Gention de la solicitud}
 
-La inserción de un nuevo flujo económico exige la abstracción de tres particiones, el usuario, la plataforma y la persistencia, los cuales se relacionan de forma que , cuando el usuario quiera añadir nuevos flujos económicos tenga la capacidad de visualizar aquellos que ya existen, y llegado el caso que encuentre uno similar, solicite a la plataforma, ya sea diferenciarlo del que se encontró debido a que es estrictamente necesario añadirlo o simplemente darse cuenta que no necesita añadir uno nuevo y cancelar la operación. 
+ para este diagrama se requiere hacer la abtraccion de 3 paerticipantes, los cuales son el Estudiante, el Coordinador y el Revisor, iniciando desde el momento en que el estudiante realiza la solicitud, el coordinador la recive y se la envia al revisor, este la evalua luego emite dicha respuesta, la cual recive el coordinador  y segun si fue aprovada o no el coordinador le adjudicara el beneficio o no al estudiante.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1\linewidth]{parte2/imgs/DiagramaDeFlujoDeTrabajo/DiagaramaDeFlujo1}
+	\includegraphics[width=1\linewidth]{parte2/imgs/DiagramaDeFlujoDeTrabajo/Actividades}
 	\caption{Diagrama de flujo de trabajo para agregar un flujo nuevo}
 	\label{fig:workflowAgregarFlujo}
 \end{figure}
 
-\paragraph{Selección de sugerencias}
-	
-Las sugerencias se realizan automáticamente teniendo en cuenta un flujo económico particular, por lo que la plataforma debe solicitar a la persistencia los flujos existentes para seleccionar uno, evaluar sus características y poder hacer la creación. Ahora bien, estas sugerencias son mostradas al usuario para que éste tome la decisión de guardarla o simplemente ignorarla. Terminado el proceso de selección, la plataforma, consciente de las sugerencias seleccionadas interactua con la persistencia para guardarlas y ella misma notifica al usuario finalmente.
-	
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=1\linewidth]{parte2/imgs/DiagramaDeFlujoDeTrabajo/DiagramaDeFlujo2}
-	\caption{Diagrama de Flujo de trabajo para la selección de sugerencias}
-	\label{fig:diagramaSeleccionarSugerencias}
-\end{figure}
